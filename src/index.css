@@ -5,6 +5,11 @@
 }
 .App {
   font-family: "Inter", sans-serif;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
   background-image: url("./assets/background.png");
   background-repeat: no-repeat;
   background-position: center;

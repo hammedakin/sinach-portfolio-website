@@ -7,8 +7,8 @@ export const Header = styled.div`
   padding: 0px 43px;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  border: 0.3px solid #ffffff;
-  border-radius: 3px;
+  border: 0.019rem solid #ffffff;
+  border-radius: 10px;
   justify-content: space-between;
   .nav-btn {
     border: none;
@@ -48,6 +48,12 @@ export const Nav = styled.nav`
     color: #ffffff;
     /* margin: 0px 70px; */
     margin-left: 70px;
+  }
+  .resume {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4f95ff;
   }
   @media (max-width: 1024px) {
     position: fixed;

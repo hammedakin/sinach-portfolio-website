@@ -17,7 +17,9 @@ const Navbar = () => {
         <Link to="/">About me</Link>
         <Link to="/">Works</Link>
         <Link to="/"> Shelf </Link>
-        <Link to="/">Download Resume</Link>
+        <Link to="/" className="resume">
+          Download Resume
+        </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>
