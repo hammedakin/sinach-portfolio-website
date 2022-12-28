@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { FaTimes } from "react-icons/fa";
-import { Header, Nav } from "./navbar.styled";
+import { Header, Nav } from "./Navbar.styled";
 import { useRef } from "react";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <Header>
-      <img src={logo} alt="logo" />
+      <Logo />
       <Nav ref={navRef}>
         <Link to="/">About me</Link>
         <Link to="/">Works</Link>

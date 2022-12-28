@@ -18,7 +18,6 @@ export const Header = styled.div`
     padding: 10px;
     cursor: pointer;
     font-size: 1.8rem;
-    /* visibility: hidden; */
     display: none;
     opacity: 0;
   }
@@ -31,6 +30,7 @@ export const Header = styled.div`
   @media (max-width: 1024px) {
     height: 49px;
     padding: 0px 14px;
+    border-radius: 3px;
     .nav-btn {
       display: block;
       opacity: 1;
@@ -46,7 +46,6 @@ export const Nav = styled.nav`
   a {
     text-decoration: none;
     color: #ffffff;
-    /* margin: 0px 70px; */
     margin-left: 70px;
   }
   .resume {
@@ -72,6 +71,7 @@ export const Nav = styled.nav`
 
     a {
       color: #000313;
+      margin-left: 0px;
     }
   }
 `;
