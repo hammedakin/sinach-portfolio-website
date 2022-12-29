@@ -32,6 +32,8 @@ export const FooterCont = styled.div`
       justify-content: center;
     }
     @media (max-width: 768px) {
+      /* width: 100%; */
+      border-radius: 5px;
       display: flex;
       flex-direction: column;
       height: 268.15px;
@@ -67,7 +69,7 @@ export const FooterCont = styled.div`
       margin: 0px 10px;
       text-decoration: none;
       text-decoration: line-through;
-      opacity: 0.3;
+      color: #a8a8a8;
     }
     @media (max-width: 768px) {
       font-size: 20px;
@@ -75,7 +77,10 @@ export const FooterCont = styled.div`
     }
   }
   @media (max-width: 768px) {
+    width: 100%;
     height: 284px;
+    border-radius: 5px;
+    margin: 30px auto;
   }
   @media (max-width: 481px) {
     height: auto;
@@ -124,6 +129,7 @@ export const Socials = styled.div`
     color: #ffffff;
   }
   @media (max-width: 768px) {
-    gap: 30px;
+    padding-top: 20px;
+    gap: 21px;
   }
 `;
