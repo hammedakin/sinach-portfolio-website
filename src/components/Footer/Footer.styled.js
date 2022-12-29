@@ -52,13 +52,19 @@ export const FooterCont = styled.div`
       line-height: 24px;
     }
   }
-  p {
+  .cont {
+    display: flex;
+    align-items: center;
     font-size: 30px;
     line-height: 38px;
     font-weight: 500;
     color: #ffffff;
-    text-decoration: underline;
+
+    p {
+      text-decoration: underline;
+    }
     span {
+      margin: 0px 10px;
       text-decoration: none;
       text-decoration: line-through;
       opacity: 0.3;

@@ -18,9 +18,9 @@ const Footer = () => {
               Got a new product Idea? <br /> Do you need to bring magic to an
               already existing product?
             </h2>
-            <p>
+            <p className="cont">
               {" "}
-              Lets <span>cook</span> talk <FaArrowRight />
+              <p>Lets</p> <span>cook</span> <p>talk</p> <FaArrowRight />
             </p>
           </div>
           <Img>
