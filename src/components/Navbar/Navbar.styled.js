@@ -10,6 +10,7 @@ export const Header = styled.div`
   border: 0.019rem solid #ffffff;
   border-radius: 10px;
   justify-content: space-between;
+
   .nav-btn {
     border: none;
     outline: none;
@@ -31,11 +32,15 @@ export const Header = styled.div`
     height: 49px;
     padding: 0px 14px;
     border-radius: 3px;
+    .des {
+      width: 70px;
+      height: 30px;
+    }
+
     .nav-btn {
       display: block;
       opacity: 1;
     }
-
     .responsive {
       transform: none;
     }

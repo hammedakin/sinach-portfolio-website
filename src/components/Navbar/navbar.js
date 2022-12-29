@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <Header>
-      <Logo />
+      <Logo className="des" />
       <Nav ref={navRef}>
         <Link to="/">About me</Link>
         <Link to="/">Works</Link>
