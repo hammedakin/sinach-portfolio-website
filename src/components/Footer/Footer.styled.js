@@ -56,6 +56,7 @@ export const FooterCont = styled.div`
   }
   .cont {
     display: flex;
+    flex-direction: row;
     align-items: center;
     font-size: 30px;
     line-height: 38px;
@@ -64,18 +65,24 @@ export const FooterCont = styled.div`
 
     p {
       text-decoration: underline;
+      margin-bottom: 0px;
+      margin-right: 5px;
     }
     span {
-      margin: 0px 10px;
+      margin-right: 5px;
       text-decoration: none;
       text-decoration: line-through;
-      color: #a8a8a8;
+      color: #5599ff;
     }
     @media (max-width: 768px) {
       font-size: 20px;
       line-height: 24px;
+      span {
+        color: #a8a8a8;
+      }
     }
   }
+
   @media (max-width: 768px) {
     width: 100%;
     height: 284px;

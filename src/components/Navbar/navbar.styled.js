@@ -36,7 +36,6 @@ export const Header = styled.div`
       width: 70px;
       height: 30px;
     }
-
     .nav-btn {
       display: block;
       opacity: 1;
