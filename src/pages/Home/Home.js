@@ -1,12 +1,45 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import { Container, Organizations } from "./Home.styled";
+import { Container, Organizations, Banner } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
+import { Link } from "react-router-dom";
+import BannerImage from "../../assets/bannerImage.png";
+import ProfileImage from "../../assets/profileImage.png";
+import { BsArrowRight } from "react-icons/bs";
 
 const Home = () => {
   return (
     <Container>
       <Navbar />
+
+      <Banner>
+        <div className="bannerContent">
+          <p>Hi 👋, I’m Osinachi Patrick. I am a</p>
+          <h1>
+            {" "}
+            <span className="first">Food Scientist </span>
+            <span className="second">turned </span>
+            <span className="third">Product Designer</span>{" "}
+          </h1>
+          <p>
+            I was a food scientist turned world class product designer. I have
+            worked with teams to build products and services that fits the
+            market with Excellence as my trademark.
+          </p>
+          <div>
+            <button>
+              <Link to="/">Hire me </Link> <BsArrowRight />
+            </button>
+            <img src={BannerImage} alt="Banner Image" />
+          </div>
+        </div>
+        <div className="bannerImg">
+          <img src={ProfileImage} alt="Profile Image" />
+          <Link to="/">
+            Interaction Design Foundation Certified <BsArrowRight />
+          </Link>
+        </div>
+      </Banner>
 
       <Organizations>
         <h2>

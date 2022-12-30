@@ -9,6 +9,10 @@ export const Container = styled.div`
   margin-top: 92px;
   padding: 5px 0px;
 
+  .mara,
+  .turing {
+    width: 180px;
+  }
   .turing {
     margin-left: 25px;
   }
@@ -20,6 +24,10 @@ export const Container = styled.div`
     margin-top: 25px;
     img {
       width: 150px;
+    }
+    .mara,
+    .turing {
+      width: 100px;
     }
   }
   @media (max-width: 480px) {
