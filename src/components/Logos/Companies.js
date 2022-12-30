@@ -17,7 +17,7 @@ const Logo = () => {
     <Container>
       <img src={MySVG.Stanrute} alt="Stanrute Logo" />
       <img src={MySVG.Refarm} alt="Refarm Logo" />
-      <img src={MySVG.Mara} alt="Mara Logo" />
+      <img src={MySVG.Mara} className="mara" alt="Mara Logo" />
       <img src={MySVG.Turing} className="turing" alt="Turing Logo" />
       <img src={MySVG.Sonr} alt="Sonr Logo" />
     </Container>

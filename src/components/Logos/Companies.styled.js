@@ -7,6 +7,7 @@ export const Container = styled.div`
   flex-direction: row;
   gap: 15px;
   margin-top: 92px;
+  padding: 5px 0px;
 
   .turing {
     margin-left: 25px;
@@ -25,6 +26,10 @@ export const Container = styled.div`
     margin-top: 25px;
     img {
       width: 100px;
+    }
+    .mara,
+    .turing {
+      width: 71px;
     }
   }
 `;

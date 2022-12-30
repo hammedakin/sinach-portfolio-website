@@ -58,6 +58,8 @@ export const FooterCont = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
     font-size: 30px;
     line-height: 38px;
     font-weight: 500;
