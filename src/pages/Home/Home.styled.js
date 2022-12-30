@@ -193,3 +193,41 @@ export const Banner = styled.div`
     padding: 59px 0px;
   }
 `;
+
+export const DesignProcess = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 135px;
+  h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+    @media (max-width: 480px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    .arr {
+      background: #086bff;
+      border-radius: 1px;
+      padding: 2px;
+    }
+    @media (max-width: 480px) {
+      font-size: 11px;
+      line-height: 25px;
+    }
+  }
+  @media (max-width: 480px) {
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 42px;
+  }
+`;

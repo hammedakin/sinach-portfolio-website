@@ -1,11 +1,12 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import { Container, Organizations, Banner } from "./Home.styled";
+import Design from "../../components/Design/Design";
+import { Container, Organizations, Banner, DesignProcess } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.png";
 import ProfileImage from "../../assets/profileImage.png";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
           <p>
             I was a food scientist turned world class product designer. I have
             worked with teams to build products and services that fits the
-            market with Excellence as my trademark.
+            market with<b>Excellence as my trademark.</b>
           </p>
           <div>
             <button>
@@ -40,6 +41,18 @@ const Home = () => {
           </Link>
         </div>
       </Banner>
+
+      <DesignProcess>
+        <h2>My Design Process</h2>
+        <p>
+          Whether working as a solo designer or with a team, I approach design
+          solutions using the standard design thinking methodology of Empathy,
+          Define, Ideate, Prototype and test and continous iteration to ensure
+          product excellence. <b>Learn more my skillsets and competencies.</b>{" "}
+          <BsArrowDown className="arr" />
+        </p>
+        <Design />
+      </DesignProcess>
 
       <Organizations>
         <h2>
