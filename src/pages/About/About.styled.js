@@ -31,7 +31,9 @@ export const AboutHeader = styled.div`
   margin: 3rem 0;
   background-size: cover;
   color: #ffffff !important;
-  height:50vh;
+  max-height:70vh;
+  height:65vh;
+  max-height:55vh;
   display:flex;
   justify-content: center;
   align-items: center;

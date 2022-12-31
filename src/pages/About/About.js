@@ -1,4 +1,7 @@
+import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
+import { StyledButton } from "../../components/GlobalStyles.styled";
 import Navbar from "../../components/Navbar/Navbar";
 import { Container } from "../Home/Home.styled";
 import { AboutHeader, StyledAbout } from "./About.styled";
@@ -41,6 +44,9 @@ const About = () => {
                 </div>
                 <hr />
                 <ThoughtShared />
+                <StyledButton>
+                    <Link to="/">Show all  </Link> <BsArrowRight /> 
+                </StyledButton>
                 <Footer />
             </StyledAbout>
         </Container>
