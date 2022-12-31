@@ -10,13 +10,19 @@ const Navbar = () => {
   const showNavBar = () => {
     navRef.current.classList.toggle("responsive");
   };
+
+  const navLinks = [
+    { to: 'about', title: 'About me' },
+    { to: '', title: 'Works' },
+    { to: 'shelf', title: 'Shelf' },
+  ];
   return (
     <Header>
       <Logo className="des" />
       <Nav ref={navRef}>
-        <Link to="/">About me</Link>
-        <Link to="/">Works</Link>
-        <Link to="/"> Shelf </Link>
+        {navLinks.map(({ title, to }, i) =>
+          <Link to={to} onClick={showNavBar} key={i}>{title}</Link>
+        )}
         <Link to="/" className="resume">
           Download Resume
         </Link>
@@ -25,7 +31,7 @@ const Navbar = () => {
         </button>
       </Nav>
 
-      <button className="nav-btn " onClick={showNavBar}>
+      <button className="nav-btn" onClick={showNavBar}>
         <HiBars3BottomRight />
       </button>
     </Header>
