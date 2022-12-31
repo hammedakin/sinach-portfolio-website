@@ -10,6 +10,7 @@ export const Header = styled.div`
   border: 0.019rem solid #ffffff;
   border-radius: 10px;
   justify-content: space-between;
+  z-index: 10000 !important;
 
   .nav-btn {
     border: none;

@@ -12,9 +12,9 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { to: 'about', title: 'About me' },
-    { to: '', title: 'Works' },
-    { to: 'shelf', title: 'Shelf' },
+    { to: '/about', title: 'About me' },
+    { to: '/', title: 'Works' },
+    { to: '/shelf', title: 'Shelf' },
   ];
   return (
     <Header>
