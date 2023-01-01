@@ -27,7 +27,10 @@ export const Header = styled.div`
     position: absolute;
     top: 2rem;
     right: 2rem;
-    color: #000313;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
+    border-radius: 3px;
   }
   @media (max-width: 1024px) {
     height: 49px;
@@ -62,21 +65,29 @@ export const Nav = styled.nav`
   @media (max-width: 1024px) {
     position: fixed;
     top: 0;
-    background-color: aliceblue;
+    background: #0052cc;
     left: 0;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 150px 20px 0px 0px;
     gap: 1.2em;
     transition: 1s;
     transform: translateY(-100vh);
+    .resume {
+      color: #b3d1ff;
+    }
 
     a {
-      color: #000313;
-      margin-left: 0px;
+      color: #b3d1ff;
+      margin-bottom: 60px;
+      &:active {
+        text-decoration: underline;
+      }
+      /* margin-left: 0px; */
     }
   }
 `;

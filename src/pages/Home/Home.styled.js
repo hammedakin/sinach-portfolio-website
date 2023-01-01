@@ -23,10 +23,10 @@ export const Organizations = styled.div`
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
-    color: #ffffff;
-    .desktopSpan {
-      color: #408cff;
-    }
+    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   p {
     margin-bottom: 0px;
@@ -55,7 +55,7 @@ export const Organizations = styled.div`
       }
     }
     p {
-      font-size: 11px;
+      font-size: 16 px;
       line-height: 23px;
     }
   }
@@ -99,27 +99,27 @@ export const Banner = styled.div`
       .first {
         color: #80839c;
         @media (max-width: 480px) {
-          display: none;
+          /* display: none; */
         }
       }
       .second {
         color: #ffffff;
         @media (max-width: 480px) {
-          display: none;
+          /* display: none; */
         }
       }
       .third {
         color: #086bff;
         @media (max-width: 480px) {
-          color: #ffffff;
+          /* color: #ffffff; */
         }
       }
       @media (max-width: 1024px) {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 46px;
       }
       @media (max-width: 480px) {
-        color: #ffffff;
+        /* color: #ffffff; */
       }
     }
     div {
@@ -203,7 +203,18 @@ export const DesignProcess = styled.div`
     font-weight: 800;
     font-size: 48px;
     line-height: 58px;
+    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill: transparent; */
+    /* -webkit-text-fill-color */
+
     color: #ffffff;
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
     @media (max-width: 480px) {
       font-size: 20px;
       line-height: 24px;
@@ -221,7 +232,7 @@ export const DesignProcess = styled.div`
       padding: 2px;
     }
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       line-height: 25px;
     }
   }

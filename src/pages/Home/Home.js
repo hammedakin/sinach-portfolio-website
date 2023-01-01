@@ -4,7 +4,7 @@ import Design from "../../components/Design/Design";
 import { Container, Organizations, Banner, DesignProcess } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
-import BannerImage from "../../assets/bannerImage.png";
+import BannerImage from "../../assets/bannerImage.svg";
 import ProfileImage from "../../assets/profileImage.png";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 
@@ -25,7 +25,7 @@ const Home = () => {
           <p>
             I was a food scientist turned world class product designer. I have
             worked with teams to build products and services that fits the
-            market with<b>Excellence as my trademark.</b>
+            market with <b>Excellence as my trademark.</b>
           </p>
           <div>
             <button>

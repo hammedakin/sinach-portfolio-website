@@ -12,17 +12,19 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { to: '/about', title: 'About me' },
-    { to: '/', title: 'Works' },
-    { to: '/shelf', title: 'Shelf' },
+    { to: "about", title: "About me" },
+    { to: "", title: "Works" },
+    { to: "shelf", title: "Shelf" },
   ];
   return (
     <Header>
       <Logo className="des" />
       <Nav ref={navRef}>
-        {navLinks.map(({ title, to }, i) =>
-          <Link to={to} onClick={showNavBar} key={i}>{title}</Link>
-        )}
+        {navLinks.map(({ title, to }, i) => (
+          <Link to={`/${to}`} onClick={showNavBar} key={i}>
+            {title}
+          </Link>
+        ))}
         <Link to="/" className="resume">
           Download Resume
         </Link>

@@ -6,36 +6,36 @@ import AllShelf from "./AllShelf";
 import { StyledShelf } from "./Shelf.styled";
 
 const Shelf = () => {
-    return (
-        <StyledShelf>
-            <Container>
-                <Navbar />
+  return (
+    <StyledShelf>
+      <Container>
+        <Navbar />
 
-                <div className="mt-5">
-                    <h1 className="pt-md-5">
-                        Some awesome books
-                    </h1>
-                    <p>These are some books I’ve read and feel it’ll be a cool read for anyone, designers etc.</p>
-                    <hr />
-                </div>
+        <div className="mt-5">
+          <h1 className="pt-md-5">Some awesome books</h1>
+          <p>
+            These are some books I’ve read and feel it’ll be a cool read for
+            anyone, designers etc.
+          </p>
+          <hr />
+        </div>
 
-                <AllShelf />
+        <AllShelf />
 
-                <div className="mt-5">
-                    <h1 className="pt-md-5">
-                        Personal  knowledge works
-                    </h1>
-                    <p>These are some templates and contents I’ve worked on for myself and other product persons.
+        <div className="mt-5">
+          <h1 className="pt-md-5">Personal knowledge works</h1>
+          <p>
+            These are some templates and contents I’ve worked on for myself and
+            other product persons.
+          </p>
+          <hr />
+        </div>
 
-                    </p>
-                    <hr />
-                </div>
-
-                <PersonalKnowledge />
-                <Footer />
-            </Container>
-        </StyledShelf>
-    );
+        <PersonalKnowledge />
+        <Footer />
+      </Container>
+    </StyledShelf>
+  );
 };
 
 export default Shelf;
