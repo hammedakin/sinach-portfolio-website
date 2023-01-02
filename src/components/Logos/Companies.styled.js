@@ -23,11 +23,11 @@ export const Container = styled.div`
   @media (max-width: 1024px) {
     margin-top: 25px;
     img {
-      width: 150px;
+      width: 200px;
     }
     .mara,
     .turing {
-      width: 100px;
+      width: 150px;
     }
   }
   @media (max-width: 480px) {

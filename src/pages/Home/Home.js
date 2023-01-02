@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Design from "../../components/Design/Design";
+import Works from "../../components/Works/Works";
 import { Container, Organizations, Banner, DesignProcess } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
@@ -53,6 +54,7 @@ const Home = () => {
         </p>
         <Design />
       </DesignProcess>
+      <Works />
 
       <Organizations>
         <h2>

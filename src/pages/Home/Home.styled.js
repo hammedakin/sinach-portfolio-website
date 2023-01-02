@@ -115,11 +115,13 @@ export const Banner = styled.div`
         }
       }
       @media (max-width: 1024px) {
-        font-size: 32px;
+        font-size: 35px;
         line-height: 46px;
       }
       @media (max-width: 480px) {
         /* color: #ffffff; */
+        font-size: 30px;
+        line-height: 46px;
       }
     }
     div {
@@ -211,6 +213,10 @@ export const DesignProcess = styled.div`
     /* -webkit-text-fill-color */
 
     color: #ffffff;
+    @media (max-width: 1024px) {
+      /* width: 80%; */
+      font-size: 40px;
+    }
     @media (max-width: 768px) {
       font-size: 20px;
       line-height: 24px;
