@@ -44,7 +44,7 @@ export const FooterCont = styled.div`
     }
   }
 
-  h2 {
+  h4 {
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
@@ -65,23 +65,31 @@ export const FooterCont = styled.div`
     font-weight: 500;
     color: #ffffff;
 
-    p {
+    .p {
+      font-size: 30px;
+      line-height: 38px;
+      font-weight: 500;
+      color: #ffffff;
       text-decoration: underline;
       margin-bottom: 0px;
       margin-right: 5px;
+      @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
     }
     span {
       margin-right: 5px;
       text-decoration: none;
       text-decoration: line-through;
       color: #5599ff;
+      @media (max-width) {
+        color: #a8a8a8;
+      }
     }
     @media (max-width: 768px) {
       font-size: 20px;
       line-height: 24px;
-      span {
-        color: #a8a8a8;
-      }
     }
   }
 

@@ -14,13 +14,14 @@ const Footer = () => {
       <FooterCont>
         <footer>
           <div>
-            <h2>
+            <h4>
               Got a new product Idea? <br /> Do you need to bring magic to an
               already existing product?
-            </h2>
+            </h4>
             <p className="cont">
               {" "}
-              <p>Lets</p> <span>cook</span> <p>talk</p> <FaArrowRight />
+              <p className="p">Lets</p> <span>cook</span>{" "}
+              <p className="p">talk</p> <FaArrowRight />
             </p>
           </div>
           <Img>

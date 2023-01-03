@@ -90,6 +90,7 @@ export const Container = styled.div`
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin-bottom: 42px;
   }
   @media (max-width: 480px) {
     padding: 10px;

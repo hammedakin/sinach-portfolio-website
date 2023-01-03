@@ -2,7 +2,7 @@ import { useState } from "react";
 import { works } from "../../data/data";
 import { Link, NavLink } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import { Container, Tab } from "./Works.styled";
+import { Container, Tab, Div } from "./Works.styled";
 
 const Works = () => {
   const [name, setName] = useState("design");
@@ -59,6 +59,7 @@ const Works = () => {
               </Container>
             ))
         : "No content"}
+
       {/* //   {works.map(({ img, title, content, class }, i) => (
     //     <Container>
     //       <div className="content">

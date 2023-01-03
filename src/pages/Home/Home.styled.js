@@ -6,6 +6,37 @@ export const Container = styled.div`
   box-sizing: border-box;
   min-height: 100vh;
   padding: 57px 68px;
+  h2 {
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 58px;
+    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  p {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    @media (max-width: 480px) {
+      font-size: 11px;
+    }
+  }
 
   @media (max-width: 1024px) {
     padding: 28px 17px;
@@ -15,30 +46,15 @@ export const Container = styled.div`
 export const Organizations = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 151px;
+  margin-top: 53px;
   h2 {
     width: 77%;
     margin-bottom: 0px;
     padding-bottom: 30px;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
-    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  p {
-    margin-bottom: 0px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    color: #ffffff;
   }
   @media (max-width: 1024px) {
     h2 {
       width: 80%;
-      font-size: 40px;
     }
   }
 
@@ -46,17 +62,11 @@ export const Organizations = styled.div`
     margin-top: 42px;
     h2 {
       width: 40%;
-      font-size: 20px;
-      line-height: 30px;
       padding-bottom: 14px;
 
       .mobileSpan {
         color: #408cff;
       }
-    }
-    p {
-      font-size: 16px;
-      line-height: 23px;
     }
   }
 
@@ -65,10 +75,6 @@ export const Organizations = styled.div`
     margin: 0px auto;
     h2 {
       width: 100%;
-    }
-    p {
-      font-size: 11px;
-      line-height: 25px;
     }
   }
 `;
@@ -85,14 +91,8 @@ export const Banner = styled.div`
     flex-direction: column;
     justify-content: center;
     p {
-      width: 85%;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 25px;
-      color: #ffffff;
+      width: 92%;
       @media (max-width: 480px) {
-        font-size: 11px;
-        margin-bottom: 0px;
         width: 100%;
       }
     }
@@ -103,28 +103,18 @@ export const Banner = styled.div`
 
       .first {
         color: #80839c;
-        @media (max-width: 480px) {
-          /* display: none; */
-        }
       }
       .second {
         color: #ffffff;
-        @media (max-width: 480px) {
-          /* display: none; */
-        }
       }
       .third {
         color: #086bff;
-        @media (max-width: 480px) {
-          /* color: #ffffff; */
-        }
       }
       @media (max-width: 1024px) {
         font-size: 35px;
         line-height: 46px;
       }
       @media (max-width: 480px) {
-        /* color: #ffffff; */
         font-size: 30px;
         line-height: 46px;
       }
@@ -208,42 +198,14 @@ export const DesignProcess = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 135px;
-  h2 {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
-    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: #ffffff;
-    @media (max-width: 1024px) {
-      font-size: 40px;
-    }
-    @media (max-width: 768px) {
-      font-size: 20px;
-      line-height: 24px;
-    }
-    @media (max-width: 480px) {
-      font-size: 20px;
-      line-height: 24px;
-    }
-  }
+  margin-bottom: 80px;
+
   p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    color: #ffffff;
     margin-bottom: 50px;
     .arr {
       background: #086bff;
       border-radius: 1px;
       padding: 2px;
-    }
-    @media (max-width: 480px) {
-      font-size: 11px;
-      line-height: 25px;
     }
   }
   @media (max-width: 480px) {
@@ -256,29 +218,9 @@ export const DesignProcess = styled.div`
 export const MyWorks = styled.div`
   display: flex;
   flex-direction: column;
-
-  h2 {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
-    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 50px;
-    @media (max-width: 1024px) {
-      font-size: 40px;
-    }
-    @media (max-width: 768px) {
-      margin-bottom: 30px;
-      font-size: 20px;
-      line-height: 24px;
-    }
-    @media (max-width: 480px) {
-      margin-bottom: 30px;
-      font-size: 20px;
-      line-height: 24px;
-    }
+  @media (max-width: 480px) {
+    width: 95%;
+    margin: 0px auto;
   }
 `;
 

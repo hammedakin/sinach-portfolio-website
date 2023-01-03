@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   gap: 15px;
-  margin-top: 92px;
+  margin-top: 52px;
   padding: 5px 0px;
 
   .mara,
@@ -31,7 +31,7 @@ export const Container = styled.div`
     }
   }
   @media (max-width: 480px) {
-    margin-top: 25px;
+    margin-top: 0px;
     img {
       width: 100px;
     }
