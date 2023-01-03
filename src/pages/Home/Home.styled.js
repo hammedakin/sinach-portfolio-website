@@ -55,7 +55,7 @@ export const Organizations = styled.div`
       }
     }
     p {
-      font-size: 16 px;
+      font-size: 16px;
       line-height: 23px;
     }
   }
@@ -65,6 +65,10 @@ export const Organizations = styled.div`
     margin: 0px auto;
     h2 {
       width: 100%;
+    }
+    p {
+      font-size: 11px;
+      line-height: 25px;
     }
   }
 `;
@@ -87,6 +91,7 @@ export const Banner = styled.div`
       line-height: 25px;
       color: #ffffff;
       @media (max-width: 480px) {
+        font-size: 11px;
         margin-bottom: 0px;
         width: 100%;
       }
@@ -140,6 +145,9 @@ export const Banner = styled.div`
         a {
           color: #ffffff;
           margin-right: 5px;
+          @media (max-width: 480px) {
+            font-size: 11px;
+          }
         }
       }
       @media (max-width: 1024px) {
@@ -209,12 +217,8 @@ export const DesignProcess = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill: transparent; */
-    /* -webkit-text-fill-color */
-
     color: #ffffff;
     @media (max-width: 1024px) {
-      /* width: 80%; */
       font-size: 40px;
     }
     @media (max-width: 768px) {
@@ -238,7 +242,7 @@ export const DesignProcess = styled.div`
       padding: 2px;
     }
     @media (max-width: 480px) {
-      font-size: 16px;
+      font-size: 11px;
       line-height: 25px;
     }
   }
@@ -246,5 +250,43 @@ export const DesignProcess = styled.div`
     width: 95%;
     margin: 0px auto;
     margin-bottom: 42px;
+  }
+`;
+
+export const MyWorks = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 50px;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+`;
+
+export const SubContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 480px) {
+    flex-direction: column-reverse;
   }
 `;

@@ -2,7 +2,14 @@ import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import Design from "../../components/Design/Design";
 import Works from "../../components/Works/Works";
-import { Container, Organizations, Banner, DesignProcess } from "./Home.styled";
+import {
+  Container,
+  SubContainer,
+  Organizations,
+  Banner,
+  DesignProcess,
+  MyWorks,
+} from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.svg";
@@ -43,18 +50,24 @@ const Home = () => {
         </div>
       </Banner>
 
-      <DesignProcess>
-        <h2>My Design Process</h2>
-        <p>
-          Whether working as a solo designer or with a team, I approach design
-          solutions using the standard design thinking methodology of Empathy,
-          Define, Ideate, Prototype and test and continous iteration to ensure
-          product excellence. <b>Learn more my skillsets and competencies.</b>{" "}
-          <BsArrowDown className="arr" />
-        </p>
-        <Design />
-      </DesignProcess>
-      <Works />
+      <SubContainer>
+        <DesignProcess>
+          <h2>My Design Process</h2>
+          <p>
+            Whether working as a solo designer or with a team, I approach design
+            solutions using the standard design thinking methodology of Empathy,
+            Define, Ideate, Prototype and test and continous iteration to ensure
+            product excellence. <b>Learn more my skillsets and competencies.</b>{" "}
+            <BsArrowDown className="arr" />
+          </p>
+          <Design />
+        </DesignProcess>
+
+        <MyWorks>
+          <h2>Selected Projects</h2>
+          <Works />
+        </MyWorks>
+      </SubContainer>
 
       <Organizations>
         <h2>

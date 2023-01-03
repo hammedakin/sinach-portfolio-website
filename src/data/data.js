@@ -11,30 +11,35 @@ export const works = [
   {
     img: image1,
     title: "Building Coinbase for Africa",
+    class: "design",
     content:
       "Building Coinbase for Africa would involve creating a cryptocurrency exchange platform that is tailored to the needs of African users. This would involve ensuring that the platform is accessible and user-friendly for users in Africa, as well as offering a range of payment options that are commonly used in the region. This is the goal of the Stanrute Exchange Application.",
   },
   {
     img: image2,
     title: "Simplifying agro product flow for Farmers",
+    class: "design",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
   },
   {
     img: image2,
     title: "Simplifying agro product flow for Farmers",
+    class: "management",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
   },
   {
     img: image2,
     title: "Simplifying agro product flow for Farmers",
+    class: "management",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
   },
   {
     img: image2,
     title: "Simplifying agro product flow for Farmers",
+    class: "management",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
   },

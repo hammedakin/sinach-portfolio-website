@@ -21,7 +21,7 @@ export const Container = styled.div`
     justify-content: center;
     padding-left: 40px;
     /* align-items: center; */
-    h2 {
+    h3 {
       font-weight: 800;
       font-size: 40px;
       line-height: 55px;
@@ -53,6 +53,9 @@ export const Container = styled.div`
       a {
         color: #ffffff;
         margin-right: 5px;
+        @media (max-width: 480px) {
+          font-size: 11px;
+        }
       }
       @media (max-width: 1000px) {
         width: 80%;
@@ -61,8 +64,8 @@ export const Container = styled.div`
         width: 40%;
       }
       @media (max-width: 480px) {
-        padding: 14px 27px;
-        width: 100%;
+        padding: 12px 13px;
+        width: 60%;
       }
     }
     @media (max-width: 1000px) {
@@ -90,5 +93,33 @@ export const Container = styled.div`
   }
   @media (max-width: 480px) {
     padding: 10px;
+    gap: 22px;
+  }
+`;
+
+export const Tab = styled.div`
+  width: fit-content;
+  display: flex;
+  margin-bottom: 55px;
+
+  button {
+    border: none;
+    border-bottom: 2px solid #75acff;
+    outline: none;
+    padding: 20px;
+    background: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    &.active {
+      color: #086bff;
+      border-bottom: 2px solid #086bff;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 11px;
+      line-height: 13px;
+    }
   }
 `;
