@@ -23,7 +23,7 @@ const Home = () => {
 
       <Banner>
         <div className="bannerContent">
-          <p>Hi 👋, I’m Osinachi Patrick. I am a</p>
+          <p className="intro">Hi 👋, I’m Osinachi Patrick. I am a</p>
           <h1>
             {" "}
             <span className="first">Food Scientist </span>

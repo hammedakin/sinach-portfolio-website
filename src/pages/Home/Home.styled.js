@@ -35,6 +35,7 @@ export const Container = styled.div`
     color: #ffffff;
     @media (max-width: 480px) {
       font-size: 11px;
+      margin-bottom: 24px;
     }
   }
 
@@ -90,6 +91,9 @@ export const Banner = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .intro {
+      margin-bottom: 0px;
+    }
     p {
       width: 92%;
       @media (max-width: 480px) {
@@ -115,8 +119,10 @@ export const Banner = styled.div`
         line-height: 46px;
       }
       @media (max-width: 480px) {
+        margin: 0px;
+        padding-bottom: 16px;
         font-size: 30px;
-        line-height: 46px;
+        line-height: 38px;
       }
     }
     div {
@@ -201,7 +207,6 @@ export const DesignProcess = styled.div`
   margin-bottom: 80px;
 
   p {
-    margin-bottom: 50px;
     .arr {
       background: #086bff;
       border-radius: 1px;
