@@ -83,8 +83,8 @@ const Home = () => {
           continuing to support and contribute to organizations that align with
           my values and goals.
         </p>
+        <Logos />
       </Organizations>
-      <Logos />
       <Footer />
     </Container>
   );

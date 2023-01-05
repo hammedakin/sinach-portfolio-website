@@ -13,12 +13,14 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "about", title: "About me" },
-    { to: "", title: "Works" },
+    { to: "works", title: "Works" },
     { to: "shelf", title: "Shelf" },
   ];
   return (
     <Header>
-      <Logo className="des" />
+      <Link to="/">
+        <Logo className="des" />
+      </Link>
       <Nav ref={navRef}>
         {navLinks.map(({ title, to }, i) => (
           <Link to={`/${to}`} onClick={showNavBar} key={i}>

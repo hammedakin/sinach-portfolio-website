@@ -1,9 +1,11 @@
 * {
   padding: 0px;
   margin: 0px;
+  max-width: 1440px;
   box-sizing: border-box;
 }
 .App {
+  width: 100%;
   font-family: "Inter", sans-serif;
   font-family: "Inter";
   font-style: normal;

@@ -7,6 +7,41 @@ import { BsStar, BsStarFill } from "react-icons/bs";
 import image1 from "../assets/Stanrute_Cover 1.png";
 import image2 from "../assets/Refarm for Farmers 1.png";
 
+import project1 from "../assets/Ads Flier 1.png";
+
+export const projects = [
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+  {
+    img: project1,
+    title: "Mara Developers Program ->",
+    link: "/",
+  },
+];
+
 export const works = [
   {
     img: image1,
