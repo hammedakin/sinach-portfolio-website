@@ -54,6 +54,9 @@ export const Container = styled.div`
     flex-wrap: nowrap;
     flex-shrink: 0;
     overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: hidden;
+    }
   }
   @media (max-width: 1024px) {
     gap: 40px;

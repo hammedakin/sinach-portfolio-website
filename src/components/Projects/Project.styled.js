@@ -31,5 +31,8 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     display: flex;
     overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: hidden;
+    }
   }
 `;

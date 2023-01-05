@@ -19,6 +19,9 @@ export const Container = styled.div`
   @media (max-width: 1300px) {
     width: 100% !important;
     overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: hidden;
+    }
   }
   @media (max-width: 1024px) {
     margin-top: 25px;

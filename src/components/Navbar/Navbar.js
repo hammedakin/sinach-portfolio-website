@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { FaTimes } from "react-icons/fa";
@@ -23,9 +23,16 @@ const Navbar = () => {
       </Link>
       <Nav ref={navRef}>
         {navLinks.map(({ title, to }, i) => (
-          <Link to={`/${to}`} onClick={showNavBar} key={i}>
+          <NavLink
+            to={`/${to}`}
+            onClick={showNavBar}
+            className={({ isActive }) =>
+              isActive ? "activeClassName" : undefined
+            }
+            key={i}
+          >
             {title}
-          </Link>
+          </NavLink>
         ))}
         <Link to="/" className="resume">
           Download Resume

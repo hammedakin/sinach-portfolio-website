@@ -33,6 +33,8 @@ export const Header = styled.div`
     border-radius: 3px;
   }
   @media (max-width: 1024px) {
+    /* position: fixed;
+    top: 1rem; */
     height: 49px;
     padding: 0px 14px;
     border-radius: 3px;
@@ -56,6 +58,12 @@ export const Nav = styled.nav`
     color: #ffffff;
     margin-left: 70px;
   }
+  .activeClassName {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 1px solid;
+  }
   .resume {
     font-weight: 700;
     font-size: 16px;
@@ -65,6 +73,7 @@ export const Nav = styled.nav`
   @media (max-width: 1024px) {
     position: fixed;
     top: 0;
+    z-index: 1;
     background: #0052cc;
     left: 0;
     height: 100vh;
@@ -85,9 +94,8 @@ export const Nav = styled.nav`
       color: #b3d1ff;
       margin-bottom: 60px;
       &:active {
-        text-decoration: underline;
+        border-bottom: 1px solid #ffffff;
       }
-      /* margin-left: 0px; */
     }
   }
 `;
