@@ -14,6 +14,7 @@ import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.svg";
 import ProfileImage from "../../assets/profileImage.png";
+import MyImage from "../../assets/myimage.png";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 
 const Home = () => {
@@ -43,7 +44,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bannerImg">
-          <img src={ProfileImage} alt="Profile Image" />
+          <img src={MyImage} alt="Profile Image" />
           <Link to="/">
             Interaction Design Foundation Certified <BsArrowRight />
           </Link>

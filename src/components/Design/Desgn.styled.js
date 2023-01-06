@@ -55,7 +55,13 @@ export const Container = styled.div`
     flex-shrink: 0;
     overflow-x: scroll;
     &::-webkit-scrollbar {
-      display: hidden;
+      display: none;
+    }
+    &::-webkit-scrollbar-track {
+      display: none;
+    }
+    &::-webkit-scrollbar-thumb {
+      display: none;
     }
   }
   @media (max-width: 1024px) {
