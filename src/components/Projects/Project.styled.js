@@ -32,7 +32,13 @@ export const Container = styled.div`
     display: flex;
     overflow-x: scroll;
     &::-webkit-scrollbar {
-      display: hidden;
+      display: none;
+    }
+    &::-webkit-scrollbar-track {
+      display: none;
+    }
+    &::-webkit-scrollbar-thumb {
+      display: none;
     }
   }
 `;
