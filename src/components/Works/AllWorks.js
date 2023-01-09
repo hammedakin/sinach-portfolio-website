@@ -6,13 +6,13 @@ import { Container } from "./Works.styled";
 const AllWorks = () => {
   return (
     <>
-      {works.map(({ img, title, content }, i) => (
+      {works.map(({ img, title, content, link }, i) => (
         <Container key={i}>
           <div className="content">
             <h3>{title}</h3>
             <p> {content} </p>
             <button>
-              <Link to="/">Read Case Study </Link> <BsArrowRight />
+              <Link to={link}>Read Case Study </Link> <BsArrowRight />
             </button>
           </div>
           <div className="image">

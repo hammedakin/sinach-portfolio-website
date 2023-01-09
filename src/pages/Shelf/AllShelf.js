@@ -33,7 +33,7 @@ const AllShelf = () => {
 
               <div className="rating mt-4">
                 <p> My rating of it’s value:</p>
-                {rating.map((e) => e)}
+                {rating.map((e,i) => <span key={i}>{e}</span>)}
               </div>
             </div>
           </div>
