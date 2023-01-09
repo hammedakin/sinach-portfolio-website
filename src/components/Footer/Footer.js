@@ -18,11 +18,11 @@ const Footer = () => {
               Got a new product Idea? <br /> Do you need to bring magic to an
               already existing product?
             </h4>
-            <p className="cont">
+            <span className="cont">
               {" "}
               <p className="p">Lets</p> <span>cook</span>{" "}
               <p className="p">talk</p> <FaArrowRight />
-            </p>
+            </span>
           </div>
           <Img>
             <img src={footerImage} className="des" alt="" />
