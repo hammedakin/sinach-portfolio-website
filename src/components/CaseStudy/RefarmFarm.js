@@ -319,6 +319,17 @@ const StyledRefarmFarm = styled.main`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
   h3 {
     font-weight: 700;
@@ -326,6 +337,18 @@ const StyledRefarmFarm = styled.main`
     line-height: 48px;
     color: #ffffff;
     margin-top: 30px;
+
+    @media (max-width: 1024px) {
+      font-size: 32px;
+    }
+    @media (max-width: 768px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
   h4 {
     font-weight: 700;
@@ -333,12 +356,36 @@ const StyledRefarmFarm = styled.main`
     line-height: 38px;
     color: #ffffff;
     margin-top: 20px;
+
+    @media (max-width: 1024px) {
+      font-size: 22px;
+    }
+    @media (max-width: 768px) {
+      font-size: 17px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 17px;
+      line-height: 24px;
+    }
   }
   h5 {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #c4c4c4;
+
+    @media (max-width: 1024px) {
+      font-size: 16px;
+    }
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
   p,
   ul li,
@@ -347,6 +394,11 @@ const StyledRefarmFarm = styled.main`
     font-size: 16px;
     line-height: 29px;
     color: #c4c4c4;
+
+    @media (max-width: 480px) {
+      font-size: 11px;
+      margin-bottom: 24px;
+    }
   }
 `;
 
