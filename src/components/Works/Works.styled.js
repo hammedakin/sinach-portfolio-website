@@ -41,29 +41,29 @@ export const Container = styled.div`
         line-height: 23px;
       }
     }
-    button {
+    a {
       border: none;
       outline: none;
-      width: 60%;
+      width: 50%;
       padding: 14px 47px;
       background: #086bff;
       color: #ffffff;
       border-radius: 5px;
       box-shadow: 2px 2px 0 2px #ffffff;
-      a {
-        color: #ffffff;
-        margin-right: 5px;
-        @media (max-width: 480px) {
-          font-size: 11px;
-        }
-      }
+
+      color: #ffffff;
+      margin-right: 5px;
       @media (max-width: 1000px) {
         width: 80%;
       }
       @media (max-width: 768px) {
         width: 40%;
       }
+      @media (max-width: 767px) {
+        width: 65%;
+      }
       @media (max-width: 480px) {
+        font-size: 11px;
         padding: 12px 13px;
         width: 60%;
       }

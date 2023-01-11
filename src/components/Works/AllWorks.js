@@ -11,9 +11,9 @@ const AllWorks = () => {
           <div className="content">
             <h3>{title}</h3>
             <p> {content} </p>
-            <button>
-              <Link to={link}>Read Case Study </Link> <BsArrowRight />
-            </button>
+            <Link to={link}>
+              Read Case Study <BsArrowRight />
+            </Link>
           </div>
           <div className="image">
             <img src={img} alt="card_image" />

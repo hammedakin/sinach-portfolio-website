@@ -44,14 +44,14 @@ const Works = () => {
       {name
         ? works
             .filter((work) => work.class === name)
-            .map(({ img, title, content }, i) => (
+            .map(({ img, title, content, link }, i) => (
               <Container key={i}>
                 <div className="content">
                   <h3>{title}</h3>
                   <p> {content} </p>
-                  <button>
-                    <Link to="/">Read Case Study </Link> <BsArrowRight />
-                  </button>
+                  <Link to={link}>
+                    Read Case Study  <BsArrowRight />
+                  </Link>
                 </div>
                 <div className="image">
                   <img src={img} alt="card_image" />
