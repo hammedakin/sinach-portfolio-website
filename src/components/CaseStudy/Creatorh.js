@@ -354,11 +354,11 @@ const StyledCreatorh = styled.main`
       font-size: 16px;
     }
     @media (max-width: 768px) {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 24px;
     }
   }
@@ -374,6 +374,9 @@ const StyledCreatorh = styled.main`
       font-size: 11px;
       margin-bottom: 24px;
     }
+  }
+  @media (max-width: 480px) {
+    margin-top: 66px;
   }
 `;
 
