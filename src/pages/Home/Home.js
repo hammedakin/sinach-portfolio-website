@@ -13,7 +13,6 @@ import {
 import Logos from "../../components/Logos/Companies";
 import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.svg";
-import ProfileImage from "../../assets/profileImage.png";
 import MyImage from "../../assets/myimage.png";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 
@@ -40,11 +39,11 @@ const Home = () => {
             <button>
               <Link to="/">Hire me </Link> <BsArrowRight />
             </button>
-            <img src={BannerImage} alt="Banner Image" />
+            <img src={BannerImage} alt="Banner_Image" />
           </div>
         </div>
         <div className="bannerImg">
-          <img src={MyImage} alt="Profile Image" />
+          <img src={MyImage} alt="Profile_Image" />
           <Link to="/">
             Interaction Design Foundation Certified <BsArrowRight />
           </Link>

@@ -1,6 +1,5 @@
 import { projects } from "../../data/data";
 import { Container } from "./Project.styled";
-import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Project = () => {
@@ -8,7 +7,7 @@ const Project = () => {
     <Container>
       {projects.map(({ img, title, link }, i) => (
         <div className="content" key={i}>
-          <img src={img} alt="project image" />
+          <img src={img} alt="project_image" />
           <Link to={link}> {title} </Link>
         </div>
       ))}

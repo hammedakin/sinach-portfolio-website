@@ -3,22 +3,22 @@ import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
-const RefarmField = () => {
+const Stanrute = () => {
     return (
-        <StyledRefarmField>
+        <StyledStanrute>
             <Container>
                 <Navbar />
-                
+
                 <Footer />
             </Container>
 
-        </StyledRefarmField>
+        </StyledStanrute>
     );
 };
 
-export default RefarmField;
+export default Stanrute;
 
-const StyledRefarmField = styled.main`
+const StyledStanrute = styled.main`
 
 
 `;

@@ -49,46 +49,57 @@ export const works = [
     class: "design",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
-    link: '/works/1',
+    link: "/works/1",
   },
-
   {
     img: image2,
     title: "Repute Case Study",
-    class: "design",
+    class: "management",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
-    link: '/works/2',
+    link: "/works/2",
   },
-
   {
     img: image2,
     title: "Sonr Learn Case Study",
-    class: "design",
+    class: "management",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
-    link: '/works/3',
+    link: "/works/3",
   },
-
   {
     img: image2,
     title: "Refarm for Field Agents",
     class: "design",
     content:
       "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
-    link: '/works/4',
+    link: "/works/4",
   },
-
-
   {
     img: image1,
-    title: "Building Coinbase for Africa",
+    title: "Refarm for Farmers Case Study",
     class: "design",
     content:
-      "Building Coinbase for Africa would involve creating a cryptocurrency exchange platform that is tailored to the needs of African users. This would involve ensuring that the platform is accessible and user-friendly for users in Africa, as well as offering a range of payment options that are commonly used in the region. This is the goal of the Stanrute Exchange Application.",
+      "There are several challenges that farmers in Africa face in the food and agricultural supply chain. One of the main challenges is a lack of access to markets and buyers for their products. Many farmers in Africa struggle to find reliable and consistent buyers for their crops, which can make it difficult for them to make a living and support their families.",
+    link: "/works/5",
+  },
+  {
+    img: image1,
+    title: "Creatorh Case Study",
+    class: "design",
+    content:
+      "African entrepreneurs face many challenges in their efforts to create solutions that benefit society. One of the biggest challenges they face is lack of access to capital. Many African entrepreneurs have great ideas, but they lack the financial resources to turn their ideas into reality. This can be due to a lack of investment opportunities in their local communities, or it can be due to a lack of access to credit or loans from banks or other financial institutions.",
+    link: "/works/6",
+  },
+  {
+    img: image1,
+    title: "Stanrute Case Study Content",
+    class: "design",
+    content:
+      "The company building the cryptoeconomy for Africa, Stanrute, began in 2021 with the goal of making it easy for anyone to send and receive Bitcoin and stablecoins. Over time, the company has expanded to offer a platform for accessing a range of cryptocurrency-based financial services. This platform is designed to be user-friendly and reliable, making it easier for people to participate in the cryptoeconomy.",
+    link: "/works/7",
   },
 ];
-
 
 export const shelf = [
   {

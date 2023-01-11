@@ -6,7 +6,7 @@ import { Container, Tab } from "./Works.styled";
 
 const Works = () => {
   const [name, setName] = useState("design");
-  const active = "active";
+  // const active = "active";
   return (
     <>
       <Tab>
@@ -54,7 +54,7 @@ const Works = () => {
                   </button>
                 </div>
                 <div className="image">
-                  <img src={img} alt="card-image" />
+                  <img src={img} alt="card_image" />
                 </div>
               </Container>
             ))

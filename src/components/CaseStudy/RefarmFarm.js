@@ -3,22 +3,22 @@ import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 
-const RefarmField = () => {
+const RefarmFarm = () => {
     return (
-        <StyledRefarmField>
+        <StyledRefarmFarm>
             <Container>
                 <Navbar />
-                
+
                 <Footer />
             </Container>
 
-        </StyledRefarmField>
+        </StyledRefarmFarm>
     );
 };
 
-export default RefarmField;
+export default RefarmFarm;
 
-const StyledRefarmField = styled.main`
+const StyledRefarmFarm = styled.main`
 
 
 `;

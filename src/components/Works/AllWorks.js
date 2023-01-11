@@ -16,7 +16,7 @@ const AllWorks = () => {
             </button>
           </div>
           <div className="image">
-            <img src={img} alt="card-image" />
+            <img src={img} alt="card_image" />
           </div>
         </Container>
       ))}
