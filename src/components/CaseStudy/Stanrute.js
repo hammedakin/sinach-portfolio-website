@@ -18,6 +18,9 @@ import Stanrute13 from "../../assets/case-study/stanrute13.png";
 import Stanrute14 from "../../assets/case-study/stanrute14.png";
 import Stanrute15 from "../../assets/case-study/stanrute15.png";
 import Stanrute16 from "../../assets/case-study/stanrute16.png";
+import { Link } from "react-router-dom";
+import { StyledButton } from "../GlobalStyles.styled";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Stanrute = () => {
   return (
@@ -488,6 +491,20 @@ const Stanrute = () => {
           the business details in the outcome of the process that wouldn’t be
           allowed by the company.
         </p>
+
+        <div className="d-flex justify-content-between">
+          <Link to="/works/6">
+            <StyledButton>
+              <FaArrowLeft /> Back
+            </StyledButton>
+          </Link>
+
+          <Link to="/works">
+            <StyledButton>
+              <FaArrowRight /> Next
+            </StyledButton>
+          </Link>
+        </div>
       </StyledStanrute>
 
       <Footer />

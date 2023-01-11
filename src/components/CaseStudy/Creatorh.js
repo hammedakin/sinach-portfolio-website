@@ -14,6 +14,9 @@ import Creatorh9 from "../../assets/case-study/creatorh9.png";
 import Creatorh10 from "../../assets/case-study/creatorh10.png";
 import Creatorh11 from "../../assets/case-study/creatorh11.png";
 import Creatorh12 from "../../assets/case-study/creatorh12.png";
+import { Link } from "react-router-dom";
+import { StyledButton } from "../GlobalStyles.styled";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Creatorh = () => {
   return (
@@ -258,6 +261,20 @@ const Creatorh = () => {
             flexibility in the design of this product and future iterations.
           </li>
         </ul>
+
+        <div className="d-flex justify-content-between">
+          <Link to="/works/5">
+            <StyledButton>
+              <FaArrowLeft /> Back
+            </StyledButton>
+          </Link>
+
+          <Link to="/works/7">
+            <StyledButton>
+              <FaArrowRight /> Next
+            </StyledButton>
+          </Link>
+        </div>
       </StyledCreatorh>
       <Footer />
     </Container>

@@ -10,6 +10,9 @@ import Farm5 from "../../assets/case-study/farm5.png";
 import Farm6 from "../../assets/case-study/farm6.png";
 import Farm7 from "../../assets/case-study/farm7.png";
 import Farm8 from "../../assets/case-study/farm8.png";
+import { Link } from "react-router-dom";
+import { StyledButton } from "../GlobalStyles.styled";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const RefarmFarm = () => {
   return (
@@ -300,6 +303,20 @@ const RefarmFarm = () => {
           Thank you for taking out some time to read through this case study, if
           you have any questions about it, you can send me a message.
         </p>
+
+        <div className="d-flex justify-content-between">
+          <Link to="/works/4">
+            <StyledButton>
+              <FaArrowLeft /> Back
+            </StyledButton>
+          </Link>
+
+          <Link to="/works/6">
+            <StyledButton>
+              <FaArrowRight /> Next
+            </StyledButton>
+          </Link>
+        </div>
       </StyledRefarmFarm>
       <Footer />
     </Container>
