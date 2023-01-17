@@ -15,7 +15,6 @@ const AllShelf = () => {
                   src={img}
                   alt="Refactoring UI"
                   width="100%"
-                  className="mb-4 mb-md-1"
                 />
               </div>
             </div>
@@ -33,7 +32,7 @@ const AllShelf = () => {
 
               <div className="rating mt-4">
                 <p> My rating of it’s value:</p>
-                {rating.map((e,i) => <span key={i}>{e}</span>)}
+                {rating.map((e, i) => <span key={i}>{e}</span>)}
               </div>
             </div>
           </div>
@@ -95,30 +94,18 @@ const StyledAllShelf = styled.section`
   }
 
   @media (max-width: 480px) {
-    h1 {
-      font-size: 32px;
-      line-height: 39px;
+    .card-bg {  
+      h1 {
+        font-size: 32px;
+        line-height: 39px;
+      }
+      h6 {
+        font-size: 14px;
+        line-height: 17px;
+      }
+  
     }
 
-    h6 {
-      font-size: 14px;
-      line-height: 17px;
-    }
+  }
 
-    p {
-      font-size: 11px;
-      line-height: 26px;
-    }
-  }
-  .rating {
-    p {
-      font-size: 16px;
-      line-height: 19px;
-    }
-    svg {
-      margin: 0 3px;
-      font-size: 15px;
-      color: #fba704;
-    }
-  }
 `;

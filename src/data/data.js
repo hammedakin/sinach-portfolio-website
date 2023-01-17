@@ -48,7 +48,7 @@ export const works = [
     title: "Refarm for Businesses Case Study",
     class: "design",
     content:
-      "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
+      " To become Africa's foremost fresh food produce supply chain by building an ecosystem of products that connects farmers, field agents, businesses, and consumers in a seamless flow of farm produce from farm to fork.",
     link: "/works/1",
   },
   {
@@ -56,7 +56,7 @@ export const works = [
     title: "Repute Case Study",
     class: "management",
     content:
-      "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
+      " Imagine you have a restaurant, after a customer has visited and had an experience, they leave a horrible review and 1 star on your site. However, you're unable to erase that review or clear your business's image before the public and that becomes a problem. Leaving that horrible review could disrupt your business's growth for a long time. You need that review gone!",
     link: "/works/2",
   },
   {
@@ -64,7 +64,7 @@ export const works = [
     title: "Sonr Learn Case Study",
     class: "management",
     content:
-      "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
+      "Sonr is a company that operates a blockchain-based platform. A blockchain is a decentralised, distributed digital ledger that records transactions on multiple computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the consensus of the network. This makes it a secure and transparent way to record and verify transactions.",
     link: "/works/3",
   },
   {

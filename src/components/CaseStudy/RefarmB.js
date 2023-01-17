@@ -10,13 +10,15 @@ import img6 from "../../assets/case-study/RefarmB6.png";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Section, StyledRefarmB } from "./CaseStudy.styled";
+import {
+    Section, StyledCaseStudy
+ } from "./CaseStudy.styled";
 
 const RefarmB = () => {
     return (
         <Container>
             <Navbar />
-            <StyledRefarmB>
+            <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">Refarm for Businesses Case Study</h3>
 
@@ -287,7 +289,7 @@ const RefarmB = () => {
                         </StyledButton>
                     </Link>
                 </div>
-            </StyledRefarmB>
+            </StyledCaseStudy>
             <Footer />
         </Container>
     );
