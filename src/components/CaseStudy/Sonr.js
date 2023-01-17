@@ -127,6 +127,17 @@ const Sonr = () => {
                     </Section>
 
                     <Section>
+                        <h4>Market Reports</h4>
+
+                        <p>
+                            I conducted a research in the current Sonr ecosystem so we can identify some elements that will help us drive more impact through the program, these were some stuffs I found out.
+                        </p>
+
+                        <img src={img3} alt="img" width="100%" />
+
+                    </Section>
+
+                    <Section>
                         <h4>User Persona</h4>
 
                         <p>
@@ -178,7 +189,7 @@ const Sonr = () => {
 
                     <Section>
                         <h4>Design flow</h4>
-                       
+
                         <img src={img11} alt="img" width="100%" />
                         <img src={img12} alt="img" width="100%" />
                         <img src={img13} alt="img" width="100%" />
