@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledRefarmB = styled.main`
+export const StyledCaseStudy = styled.main`
 
   h3 {
     font-weight: 700;
@@ -15,9 +15,12 @@ export const StyledRefarmB = styled.main`
   }
 
  h4 {
-    font-size: 35px;
-    margin-bottom: 1rem;
-    color: #ffffff;
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 48px;
+   margin-bottom: 1rem;
+   margin-top: 30px;
+   color: #ffffff;
   }
 
  h5 {
@@ -30,7 +33,7 @@ export const StyledRefarmB = styled.main`
     margin-bottom: 1rem;
     color: #ffffff;
   }
-  
+
  p{
    margin-bottom: 0.5rem;
  }

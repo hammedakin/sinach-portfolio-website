@@ -6,9 +6,11 @@ export const StyledAbout = styled.main`
     border: 0.5px solid #ffffff;
   }
   .about-body {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 50px;
+    p,li {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+    }
     background: linear-gradient(
       180deg,
       #ffffff 0%,

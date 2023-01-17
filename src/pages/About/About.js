@@ -20,7 +20,7 @@ const About = () => {
         </AboutHeader>
         <hr />
         <div className="about-body">
-          <p className="">
+          <p className="mb-1">
             I'm Osinachi Patrick, a highly experienced product person with a
             wealth of experience working on a variety of products in different
             industries. I am passionate about building and enhancing great user

@@ -14,41 +14,53 @@ import img10 from "../../assets/case-study/repute10.png";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Section, StyledRefarmB } from "./CaseStudy.styled";
+import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 
 const Repute = () => {
     return (
         <Container>
             <Navbar />
-            <StyledRefarmB>
+            <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">Repute Case Study</h3>
 
-                    <div className="my-3">
-                        <h6>
-                            My role :
-                            <span className="fw-light">
-                                {' '}    Product and Design Lead
-                            </span>
-                        </h6>
-                        <h6>
-                            Length :
-                            <span className="fw-light">
-                                {' '}    6 Weeks
-                            </span>
-                        </h6>
-                        <h6>
-                            Outcome :
-                            <span className="fw-light">
-                                {' '}    UX & UI Design, UI Components, Product Design
-                            </span>
-                        </h6>
-                        <h6>
-                            Tools :
-                            <span className="fw-light">
-                                {' '}    Figma, Notion, Miro, Trello
-                            </span>
-                        </h6>
+                    <div className="my-3 row">
+                        <div className="col-md-3 col-6">
+                            <h6>
+                                My role :
+                            </h6>
+                            <p className="fw-light">
+                                Product and Design Lead
+                            </p>
+
+                        </div>
+                        <div className="col-md-3 col-6">
+                            <h6>
+                                Length :
+                            </h6>
+                            <p className="fw-light">
+                                6 Weeks
+                            </p>
+
+                        </div>
+                        <div className="col-md-3 col-6">
+                            <h6>
+                                Outcome :
+                            </h6>
+                            <p className="fw-light">
+                                UX & UI Design <br /> UI Components <br /> Product Design
+                            </p>
+
+                        </div>
+                        <div className="col-md-3 col-6">
+                            <h6>
+                                Tools :
+                            </h6>
+                            <p className="fw-light">
+                                Figma <br /> Notion <br /> Miro <br /> Trello
+                            </p>
+
+                        </div>
                     </div>
 
                     <Section>
@@ -300,7 +312,7 @@ const Repute = () => {
                         </StyledButton>
                     </Link>
                 </div>
-            </StyledRefarmB>
+            </StyledCaseStudy>
             <Footer />
         </Container>
     );

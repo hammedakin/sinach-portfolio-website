@@ -10,14 +10,17 @@ const PersonalKnowledge = () => {
             <div className="card-bg">
               <div className="row align-items-center">
                 <div className="col-3">
-                  <h6 className="">{type}</h6>
+                  <h6 className="m-0">{type}</h6>
                 </div>
-                <div className="col">
-                  <p>
-                    {" "}
+                <div className="col ">
+                  <p className='m-0'>
                     {title}
-                    {" >>>"}{" "}
                   </p>
+                </div>
+                <div className="col-2 ">
+                  <h4 className='m-0'>
+                    {" >>>"}
+                  </h4>
                 </div>
               </div>
             </div>
