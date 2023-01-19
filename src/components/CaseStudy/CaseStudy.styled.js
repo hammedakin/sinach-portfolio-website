@@ -49,8 +49,8 @@ export const StyledCaseStudy = styled.main`
  }
 
  img {
-   margin-top:1.5rem;
- }
+   margin: 1.5rem 0;
+  }
 `;
 
 export const Section = styled.section`

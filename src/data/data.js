@@ -9,6 +9,11 @@ import image2 from "../assets/Refarm for Farmers 1.png";
 
 import project1 from "../assets/Ads Flier 1.png";
 
+import csimg1 from '../assets/case-study/RefarmB0.png'
+import csimg2 from '../assets/case-study/repute0.png'
+import csimg3 from '../assets/case-study/sonr0.png'
+import csimg4 from '../assets/case-study/RefarmF0.png'
+
 export const projects = [
   {
     img: project1,
@@ -44,7 +49,7 @@ export const projects = [
 
 export const works = [
   {
-    img: image2,
+    img: csimg1,
     title: "Refarm for Businesses Case Study",
     class: "design",
     content:
@@ -52,7 +57,7 @@ export const works = [
     link: "/works/1",
   },
   {
-    img: image2,
+    img: csimg2,
     title: "Repute Case Study",
     class: "management",
     content:
@@ -60,7 +65,7 @@ export const works = [
     link: "/works/2",
   },
   {
-    img: image2,
+    img: csimg3,
     title: "Sonr Learn Case Study",
     class: "management",
     content:
@@ -68,11 +73,11 @@ export const works = [
     link: "/works/3",
   },
   {
-    img: image2,
+    img: csimg4,
     title: "Refarm for Field Agents",
     class: "design",
     content:
-      "The food supply chain management app for farmers would help farmers to track the supply chain of their products from the farm to the consumer. The app would allow farmers to monitor the quality and quantity of their products, as well as their delivery and distribution to markets and retailers.",
+      "The Refarm app for Field Agents is an application designed to facilitate communication and interaction between field agents and farmers. Field agents are individuals who work on behalf of Refarm and are responsible for a variety of tasks related to the collection and distribution of farm produce.",
     link: "/works/4",
   },
   {

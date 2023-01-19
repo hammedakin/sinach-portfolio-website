@@ -1,6 +1,7 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import img0 from "../../assets/case-study/repute0.png";
 import img1 from "../../assets/case-study/repute1.png";
 import img2 from "../../assets/case-study/repute2.png";
 import img3 from "../../assets/case-study/repute3.png";
@@ -11,10 +12,9 @@ import img7 from "../../assets/case-study/repute7.png";
 import img8 from "../../assets/case-study/repute8.png";
 import img9 from "../../assets/case-study/repute9.png";
 import img10 from "../../assets/case-study/repute10.png";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
+import CSButtons from "./CSButtons";
 
 const Repute = () => {
     return (
@@ -23,6 +23,7 @@ const Repute = () => {
             <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">Repute Case Study</h3>
+                    <img src={img0} alt="cover" width='100%' />
 
                     <div className="my-3 row">
                         <div className="col-md-3 col-6">
@@ -299,19 +300,8 @@ const Repute = () => {
                     </Section>
                 </div>
 
-                <div className="d-flex justify-content-between">
-                    <Link to="/works/1">
-                        <StyledButton>
-                            <FaArrowLeft /> Back
-                        </StyledButton>
-                    </Link>
+                <CSButtons prev={'1'} next={'3'} />
 
-                    <Link to="/works/3">
-                        <StyledButton>
-                            <FaArrowRight /> Next
-                        </StyledButton>
-                    </Link>
-                </div>
             </StyledCaseStudy>
             <Footer />
         </Container>

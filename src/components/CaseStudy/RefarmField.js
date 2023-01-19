@@ -1,6 +1,7 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import img0 from "../../assets/case-study/RefarmF0.png";
 import img1 from "../../assets/case-study/RefarmF1.png";
 import img2 from "../../assets/case-study/RefarmF2.png";
 import img3 from "../../assets/case-study/RefarmF3.png";
@@ -9,18 +10,9 @@ import img5 from "../../assets/case-study/RefarmF5.png";
 import img6 from "../../assets/case-study/RefarmF6.png";
 import img7 from "../../assets/case-study/RefarmF7.png";
 import img8 from "../../assets/case-study/RefarmF8.png";
-import img9 from "../../assets/case-study/sonr9.png";
-import img10 from "../../assets/case-study/sonr10.png";
-import img11 from "../../assets/case-study/sonr11.png";
-import img12 from "../../assets/case-study/sonr12.png";
-import img13 from "../../assets/case-study/sonr13.png";
-import img14 from "../../assets/case-study/sonr14.png";
-import img15 from "../../assets/case-study/sonr15.png";
-import img16 from "../../assets/case-study/sonr16.png";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import { Section, StyledCaseStudy, } from "./CaseStudy.styled";
+import CSButtons from "./CSButtons";
 
 const RefarmField = () => {
     return (
@@ -29,6 +21,7 @@ const RefarmField = () => {
             <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">Refarm for Field Agents</h3>
+                    <img src={img0} alt="cover" width='100%' />
 
                     <div className="my-3 row">
                         <div className="col-md-3 col-6 mt-4">
@@ -71,7 +64,7 @@ const RefarmField = () => {
 
                     <Section>
                         <h4>Overview</h4>
-                        <img src={img1} alt="img" width="100%" />
+                        {/* <img src={img1} alt="img" width="100%" /> */}
                         <p>
                             The Refarm app for Field Agents is an application designed to facilitate communication and interaction between field agents and farmers. Field agents are individuals who work on behalf of Refarm and are responsible for a variety of tasks related to the collection and distribution of farm produce. These tasks may include onboarding new farmers, collecting produce from farms, delivering farm inputs to farmers, and providing training to farmers on best practices and techniques. The app provides features that help field agents to efficiently and effectively perform these duties, ensuring a smooth and seamless flow of fresh farm produce from farmers to Refarm. Both free and premium users (field agents) can use the app.
                         </p>
@@ -126,7 +119,7 @@ const RefarmField = () => {
                         <p>
                             Duke is an active logistics agent who is known for his integrity and is looking to expand his services to new sectors, specifically the agriculture supply chain. He has joined a logistics company that works with Refarm and will be onboarded as a field agent in the Refarm supply chain system to help facilitate communication and transactions between farmers and Refarm. Duke values maximum productivity and is located in Bauchi state.
                         </p>
-                        <img src={img4} alt="img" width="100%" />
+                        <img src={img3} alt="img" width="100%" />
 
                     </Section>
 
@@ -182,9 +175,9 @@ const RefarmField = () => {
                         <h4>Information Architecture</h4>
 
                         <img src={img4} alt="img" width="100%" />
-                   
+
                     </Section>
-                    
+
                     <Section>
                         <h4>Design Elements - Style guide</h4>
                         <p>
@@ -192,22 +185,22 @@ const RefarmField = () => {
                         </p>
 
                         <img src={img5} alt="img" width="100%" />
-                      
-                     
+
+
                     </Section>
 
                     <Section>
                         <h4>Interface Designs</h4>
-                                        <img src={img5} alt="img" width="100%" />
                         <img src={img6} alt="img" width="100%" />
                         <img src={img7} alt="img" width="100%" />
-                     
+                        <img src={img8} alt="img" width="100%" />
+
                     </Section>
 
                     <Section>
                         <h4>Learnings and Way forward</h4>
                         <p>
-Here are some learnings that I gained from implementing these features in the, as well as some potential ways to improve the app based on those learnings:
+                            Here are some learnings that I gained from implementing these features in the, as well as some potential ways to improve the app based on those learnings:
                         </p>
                         <ul>
                             <li>
@@ -217,10 +210,10 @@ Here are some learnings that I gained from implementing these features in the, a
                                 Identifying pain points and bottlenecks: By using the app and collecting data on how field agents are using it, we may identify areas where the app is not meeting their needs or where there are bottlenecks in their workflow. This information can help the team to identify and address any issues that are causing frustration or inefficiency for field agents.
                             </li>
                             <li>
-Evaluating the effectiveness of features: By collecting data on how field agents are using the app and the outcomes of their tasks, we can evaluate the effectiveness of different features and see which ones are most useful to them. This can help us to prioritize and improve upon the features that are most valuable to field agents.
+                                Evaluating the effectiveness of features: By collecting data on how field agents are using the app and the outcomes of their tasks, we can evaluate the effectiveness of different features and see which ones are most useful to them. This can help us to prioritize and improve upon the features that are most valuable to field agents.
                             </li>
                             <li>
-Incorporating new technologies and approaches: As we continue to develop and use the app, we may come across new technologies or approaches that could improve the app's functionality or user experience. By staying up to date on developments in the field, we may be able to incorporate these innovations into the app to keep it relevant and effective.
+                                Incorporating new technologies and approaches: As we continue to develop and use the app, we may come across new technologies or approaches that could improve the app's functionality or user experience. By staying up to date on developments in the field, we may be able to incorporate these innovations into the app to keep it relevant and effective.
                             </li>
                         </ul>
                     </Section>
@@ -232,21 +225,11 @@ Incorporating new technologies and approaches: As we continue to develop and use
                             study, if you have any questions about it, you can send me a <a href="https://twitter.com/sinachpatrick"> message</a>.
                         </p>
                     </Section>
+
                 </div>
 
-                <div className="d-flex justify-content-between">
-                    <Link to="/works/3">
-                        <StyledButton>
-                            <FaArrowLeft /> Back
-                        </StyledButton>
-                    </Link>
+                <CSButtons prev={'3'} next={'5'} />
 
-                    <Link to="/works/5">
-                        <StyledButton>
-                            <FaArrowRight /> Next
-                        </StyledButton>
-                    </Link>
-                </div>
             </StyledCaseStudy>
             <Footer />
         </Container>

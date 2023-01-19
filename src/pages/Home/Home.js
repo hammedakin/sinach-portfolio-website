@@ -15,10 +15,26 @@ import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.svg";
 import MyImage from "../../assets/myimage.png";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
+import { useEffect, useState } from "react";
+import PageLoader from "../../components/PageLoader";
 
 const Home = () => {
+
+  const [ploading, setploading] = useState(false);
+
+  useEffect(() => {
+    setploading(true);
+    setTimeout(() => {
+      setploading(false);
+    }, 7000);
+  }, []);
+
   return (
     <Container>
+
+      {ploading && 
+        <PageLoader loading={ploading} />
+      }
       <Navbar />
 
       <Banner>

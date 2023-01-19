@@ -1,6 +1,7 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import img0 from "../../assets/case-study/sonr0.png";
 import img1 from "../../assets/case-study/sonr1.png";
 import img2 from "../../assets/case-study/sonr2.png";
 import img3 from "../../assets/case-study/sonr3.png";
@@ -17,10 +18,10 @@ import img13 from "../../assets/case-study/sonr13.png";
 import img14 from "../../assets/case-study/sonr14.png";
 import img15 from "../../assets/case-study/sonr15.png";
 import img16 from "../../assets/case-study/sonr16.png";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import { Section, StyledCaseStudy, } from "./CaseStudy.styled";
+import CSButtons from "./CSButtons";
+
 
 const Sonr = () => {
     return (
@@ -29,6 +30,7 @@ const Sonr = () => {
             <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">A Developer Learning Platform for the Sonr Ecosystem</h3>
+                    <img src={img0} alt="cover" width='100%' />
 
                     <div className="my-3 row">
                         <div className="col-md-3 col-6 mt-4">
@@ -207,19 +209,8 @@ const Sonr = () => {
                     </Section>
                 </div>
 
-                <div className="d-flex justify-content-between">
-                    <Link to="/works/2">
-                        <StyledButton>
-                            <FaArrowLeft /> Back
-                        </StyledButton>
-                    </Link>
+                <CSButtons prev={'2'} next={'4'} />
 
-                    <Link to="/works/4">
-                        <StyledButton>
-                            <FaArrowRight /> Next
-                        </StyledButton>
-                    </Link>
-                </div>
             </StyledCaseStudy>
             <Footer />
         </Container>
