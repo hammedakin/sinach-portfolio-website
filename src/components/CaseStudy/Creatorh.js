@@ -314,6 +314,11 @@ const StyledCreatorh = styled.main`
         margin-bottom: 3px;
       }
     }
+    @media (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
   }
   h2 {
     font-weight: 700;
