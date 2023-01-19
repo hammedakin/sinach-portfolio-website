@@ -1,18 +1,18 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import img0 from "../../assets/case-study/RefarmB0.png";
 import img1 from "../../assets/case-study/RefarmB1.png";
 import img2 from "../../assets/case-study/RefarmB2.png";
 import img3 from "../../assets/case-study/RefarmB3.png";
 import img4 from "../../assets/case-study/RefarmB4.png";
 import img5 from "../../assets/case-study/RefarmB5.png";
 import img6 from "../../assets/case-study/RefarmB6.png";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import {
     Section, StyledCaseStudy
- } from "./CaseStudy.styled";
+} from "./CaseStudy.styled";
+import CSButtons from "./CSButtons";
 
 const RefarmB = () => {
     return (
@@ -21,7 +21,7 @@ const RefarmB = () => {
             <StyledCaseStudy>
                 <div className="my-5">
                     <h3 className="mb-5">Refarm for Businesses Case Study</h3>
-
+                    <img src={img0} alt="cover" width='100%' />
                     <Section>
                         <h4>Overview</h4>
                         <p>
@@ -276,19 +276,7 @@ const RefarmB = () => {
                     </Section>
                 </div>
 
-                <div className="d-flex justify-content-between">
-                    <Link to="/works">
-                        <StyledButton>
-                            <FaArrowLeft /> Back
-                        </StyledButton>
-                    </Link>
-
-                    <Link to="/works/2">
-                        <StyledButton>
-                            <FaArrowRight /> Next
-                        </StyledButton>
-                    </Link>
-                </div>
+                <CSButtons prev={''} next={'2'} />
             </StyledCaseStudy>
             <Footer />
         </Container>
