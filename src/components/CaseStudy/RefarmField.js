@@ -1,6 +1,6 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar/navbar";
 import img0 from "../../assets/case-study/RefarmF0.png";
 import img2 from "../../assets/case-study/RefarmF2.png";
 import img3 from "../../assets/case-study/RefarmF3.png";
