@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import Creatorh1 from "../../assets/case-study/creatorh1.png";
 import Creatorh2 from "../../assets/case-study/creatorh2.png";
 import Creatorh3 from "../../assets/case-study/creatorh3.png";
 import Creatorh4 from "../../assets/case-study/creatorh4.png";

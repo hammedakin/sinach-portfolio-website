@@ -4,8 +4,6 @@ import img3 from "../assets/about/principles_of_product_design.png";
 import img4 from "../assets/about/product_road.png";
 import { BsStar, BsStarFill } from "react-icons/bs";
 
-import image1 from "../assets/Stanrute_Cover 1.png";
-
 import csimg1 from "../assets/case-study/RefarmB0.png";
 import csimg2 from "../assets/case-study/repute0.png";
 import csimg3 from "../assets/case-study/sonr0.png";

@@ -11,7 +11,6 @@ import {
   MyWorks,
 } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
-import BannerImage from "../../assets/bannerImage.svg";
 // import MyImage from "../../assets/myimage.png";
 import { StyledButton } from "../../components/GlobalStyles.styled";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
