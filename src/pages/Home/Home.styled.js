@@ -127,32 +127,13 @@ export const Banner = styled.div`
     }
     div {
       display: flex;
-      align-items: flex-start;
       max-width: 95%;
-      justify-content: space-between;
-      button {
-        border: none;
-        outline: none;
-        padding: 14px 47px;
-        background: #086bff;
-        color: #ffffff;
-        border-radius: 5px;
-        box-shadow: 2px 2px 0 2px #ffffff;
-        a {
-          color: #ffffff;
-          margin-right: 5px;
-          @media (max-width: 480px) {
-            font-size: 11px;
-          }
-        }
+      div {
+        margin-left: 20%;
       }
       @media (max-width: 1024px) {
         img {
           display: none;
-        }
-        button {
-          margin-top: 18px;
-          padding: 12px 37px;
         }
       }
     }

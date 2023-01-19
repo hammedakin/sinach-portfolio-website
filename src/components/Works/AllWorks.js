@@ -2,6 +2,7 @@ import { works } from "../../data/data";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { Container } from "./Works.styled";
+import { StyledButton } from "../GlobalStyles.styled";
 
 const AllWorks = () => {
   return (
@@ -11,8 +12,11 @@ const AllWorks = () => {
           <div className="content">
             <h3>{title}</h3>
             <p> {content} </p>
+
             <Link to={link}>
-              Read Case Study <BsArrowRight />
+              <StyledButton>
+                Read Case Study <BsArrowRight />
+              </StyledButton>
             </Link>
           </div>
           <div className="image">

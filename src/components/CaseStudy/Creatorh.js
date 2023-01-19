@@ -25,23 +25,37 @@ const Creatorh = () => {
       <StyledCreatorh>
         <h2>Creatorh Case Study</h2>
 
-        <h5>
-          <span>My role :</span> Lead User Experience (UX) Designer, Interaction
-          Designer
-        </h5>
-        <h5>
-          <span>Length :</span> 4 Weeks
-        </h5>
-        <h5>
-          <span>Outcome :</span> UX & UI Design, UI Components, Product Design
-        </h5>
-        <h5>
-          <span>Tools :</span> Figma, Notion, Miro, Trello
-        </h5>
-
         <Images>
-          <img src={Creatorh1} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/creatorh0_oaviib.png"
+            alt=""
+          />
         </Images>
+        <div className="Intro">
+          <div className="role">
+            <h5>My role</h5>
+            <p>Lead User Experience (UX) Designer</p>
+            <p>Interaction Designer</p>
+          </div>
+          <div className="length">
+            <h5>Length</h5>
+            <p>4 Weeks</p>
+          </div>
+          <div className="outcome">
+            <h5>Outcome</h5>
+            <p>UX & UI Design</p>
+            <p>UI Components</p>
+            <p>Product Design</p>
+          </div>
+          <div className="tools">
+            <h5>Tools</h5>
+            <p>Figma</p>
+            <p>Notion</p>
+            <p>Miro</p>
+            <p>Trello</p>
+          </div>
+        </div>
+
         <h3>Challenge</h3>
         <h4>⚡ Social Network for the Next Billon Creators</h4>
         <p>
@@ -271,7 +285,7 @@ const Creatorh = () => {
 
           <Link to="/works/7">
             <StyledButton>
-              <FaArrowRight /> Next
+              Next <FaArrowRight />
             </StyledButton>
           </Link>
         </div>
@@ -286,6 +300,21 @@ export default Creatorh;
 const StyledCreatorh = styled.main`
   margin-top: 151px;
   min-height: 100vh;
+  .Intro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    gap: 60px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 3px;
+      }
+    }
+  }
   h2 {
     font-weight: 700;
     font-size: 48px;

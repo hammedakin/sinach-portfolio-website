@@ -5,44 +5,31 @@ import img4 from "../assets/about/product_road.png";
 import { BsStar, BsStarFill } from "react-icons/bs";
 
 import image1 from "../assets/Stanrute_Cover 1.png";
-import image2 from "../assets/Refarm for Farmers 1.png";
 
-import project1 from "../assets/Ads Flier 1.png";
-
-import csimg1 from '../assets/case-study/RefarmB0.png'
-import csimg2 from '../assets/case-study/repute0.png'
-import csimg3 from '../assets/case-study/sonr0.png'
-import csimg4 from '../assets/case-study/RefarmF0.png'
+import csimg1 from "../assets/case-study/RefarmB0.png";
+import csimg2 from "../assets/case-study/repute0.png";
+import csimg3 from "../assets/case-study/sonr0.png";
+import csimg4 from "../assets/case-study/RefarmF0.png";
 
 export const projects = [
   {
-    img: project1,
-    title: "Mara Developers Program ->",
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/codemarka_kzfxaw.png",
+    title: "Codemarka",
     link: "/",
   },
   {
-    img: project1,
-    title: "Mara Developers Program ->",
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142147/Sinachpat/learnweb3DAO_pbdse0.png",
+    title: "Learnweb3DAO",
     link: "/",
   },
   {
-    img: project1,
-    title: "Mara Developers Program ->",
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/mara_designs_niayow.png",
+    title: "Mara Developers ",
     link: "/",
   },
   {
-    img: project1,
-    title: "Mara Developers Program ->",
-    link: "/",
-  },
-  {
-    img: project1,
-    title: "Mara Developers Program ->",
-    link: "/",
-  },
-  {
-    img: project1,
-    title: "Mara Developers Program ->",
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/premium_trust_bank_rp56b9.png",
+    title: "Premium Trust Bank - Transaction Authorizer Dashboard",
     link: "/",
   },
 ];
@@ -81,7 +68,7 @@ export const works = [
     link: "/works/4",
   },
   {
-    img: image1,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/RefarmFarm0_sdvgcb.jpg",
     title: "Refarm for Farmers Case Study",
     class: "design",
     content:
@@ -89,7 +76,7 @@ export const works = [
     link: "/works/5",
   },
   {
-    img: image1,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/creatorh0_oaviib.png",
     title: "Creatorh Case Study",
     class: "design",
     content:
@@ -97,7 +84,7 @@ export const works = [
     link: "/works/6",
   },
   {
-    img: image1,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156481/Sinachpat/stanrute0_l7twew.png",
     title: "Stanrute Case Study Content",
     class: "design",
     content:

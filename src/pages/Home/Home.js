@@ -11,15 +11,15 @@ import {
   MyWorks,
 } from "./Home.styled";
 import Logos from "../../components/Logos/Companies";
-import { Link } from "react-router-dom";
 import BannerImage from "../../assets/bannerImage.svg";
-import MyImage from "../../assets/myimage.png";
+// import MyImage from "../../assets/myimage.png";
+import { StyledButton } from "../../components/GlobalStyles.styled";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import PageLoader from "../../components/PageLoader";
+import RotatingText from "../../components/RotatingText/RotatingText";
 
 const Home = () => {
-
   const [ploading, setploading] = useState(false);
 
   useEffect(() => {
@@ -31,10 +31,7 @@ const Home = () => {
 
   return (
     <Container>
-
-      {ploading && 
-        <PageLoader loading={ploading} />
-      }
+      {ploading && <PageLoader loading={ploading} />}
       <Navbar />
 
       <Banner>
@@ -52,17 +49,25 @@ const Home = () => {
             market with <b>Excellence as my trademark.</b>
           </p>
           <div>
-            <button>
-              <Link to="/">Hire me </Link> <BsArrowRight />
-            </button>
-            <img src={BannerImage} alt="Banner_Image" />
+            <a href="mailto:sinachpat@gmail.com">
+              {" "}
+              <StyledButton>
+                Hire me <BsArrowRight />{" "}
+              </StyledButton>
+            </a>{" "}
+            <div>
+              <RotatingText />
+            </div>
           </div>
         </div>
         <div className="bannerImg">
-          <img src={MyImage} alt="Profile_Image" />
-          <Link to="/">
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122168/Sinachpat/myimage_ullgke.png"
+            alt="Profile_Image"
+          />
+          <a href="https://drive.google.com/drive/folders/12eTziSjf7LMnLBx-8ARv0Qn2ClargyJt?usp=sharing">
             Interaction Design Foundation Certified <BsArrowRight />
-          </Link>
+          </a>
         </div>
       </Banner>
 

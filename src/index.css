@@ -12,7 +12,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  background-image: url("./assets/background.png");
-  /* background-repeat: no-repeat; */
+  background: url("https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:good/f_auto/v1674122161/Sinachpat/background_ga1qlz.png"), #000313;
+  background-repeat: repeat-y;
   background-position: center;
 }

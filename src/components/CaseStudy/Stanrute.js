@@ -42,6 +42,35 @@ const Stanrute = () => {
           <span>Tools :</span> Figma, Notion, Miro, Trello
         </h5>
 
+        <Images>
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156481/Sinachpat/stanrute0_l7twew.png"
+            alt=""
+          />
+        </Images>
+        <div className="Intro">
+          <div className="role">
+            <h5>My role</h5>
+            <p>Product and Design Lead</p>
+          </div>
+          <div className="length">
+            <h5>Length</h5>
+            <p>6 Weeks</p>
+          </div>
+          <div className="outcome">
+            <h5>Outcome</h5>
+            <p>UX & UI Design</p>
+            <p>UI Components</p>
+            <p>Product Design</p>
+          </div>
+          <div className="tools">
+            <h5>Tools</h5>
+            <p>Figma</p>
+            <p>Notion</p>
+            <p>Miro</p>
+            <p>Trello</p>
+          </div>
+        </div>
         <h3>Overview</h3>
         <p>
           The company building the cryptoeconomy for Africa, Stanrute, began in
@@ -501,7 +530,7 @@ const Stanrute = () => {
 
           <Link to="/works">
             <StyledButton>
-              <FaArrowRight /> Next
+              Next <FaArrowRight />
             </StyledButton>
           </Link>
         </div>
@@ -517,6 +546,21 @@ export default Stanrute;
 const StyledStanrute = styled.main`
   margin-top: 151px;
   min-height: 100vh;
+  .Intro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    gap: 60px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 3px;
+      }
+    }
+  }
   h2 {
     font-weight: 700;
     font-size: 48px;
