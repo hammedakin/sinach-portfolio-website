@@ -1,23 +1,20 @@
 import axios from "axios";
 import { useState } from "react";
 import styled from "styled-components";
-import sonr from "../../assets/about/sonr.png";
 
 const ThoughtShared = () => {
-
-
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState([]);
-  const endpoint = 'https://medium2.p.rapidapi.com/';
-  const user_id = '1985b61817c3';
+  const endpoint = "https://medium2.p.rapidapi.com/";
+  const user_id = "1985b61817c3";
 
-
-  axios.get(`${ endpoint }user/${ user_id }/articles`, {
-    headers: {
-      'X-RapidAPI-Key': '55943390a9mshbed19256ae6092cp17efedjsn91739d2ff04e',
-      'X-RapidAPI-Host': 'medium2.p.rapidapi.com'
-    }
-  })
+  axios
+    .get(`${endpoint}user/${user_id}/articles`, {
+      headers: {
+        "X-RapidAPI-Key": "55943390a9mshbed19256ae6092cp17efedjsn91739d2ff04e",
+        "X-RapidAPI-Host": "medium2.p.rapidapi.com",
+      },
+    })
     .then((res) => {
       if (res.data.success === false) {
         setloading(false);
@@ -58,7 +55,11 @@ const ThoughtShared = () => {
           <div className="col-md-4 mb-3" key={i}>
             <div className="card">
               <div className="">
-                <img src={sonr} alt="Sonr" width="100%" />
+                <img
+                  src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/sonr_yyf96u.png"
+                  alt="Sonr"
+                  width="100%"
+                />
               </div>
               <div className="px-2 my-3">
                 <h5>{title}</h5>

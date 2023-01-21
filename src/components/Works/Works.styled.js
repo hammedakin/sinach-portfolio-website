@@ -1,37 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  position: relative;
   display: grid;
   grid-template-columns: 50% 45%;
   width: 100%;
   padding: 22px;
   gap: 50px;
-  border: 2px solid #bfd9ff;
-  /* border-image: linear-gradient(45deg, #ffffff, #bfd9ff) 1; */
   margin-bottom: 80px;
   background: linear-gradient(
     180deg,
     rgba(8, 107, 255, 0.1) 0%,
     rgba(85, 153, 255, 0.1) 100%
   );
+  border: 1px solid #bfd9ff;
   border-radius: 20px;
-
-  /* &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    background: linear-gradient(45deg, #ffffff, #bfd9ff) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-      linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out;
-    mask-composite: exclude;
-  } */
 
   .content {
     display: flex;
@@ -55,7 +37,7 @@ export const Container = styled.div`
       line-height: 23px;
       color: #ffffff;
       @media (max-width: 480px) {
-        font-size: 11px;
+        font-size: 16px;
         line-height: 23px;
       }
     }
@@ -75,16 +57,20 @@ export const Container = styled.div`
     display: flex;
     img {
       max-width: 100%;
+      border-radius: 15px;
     }
   }
+
   @media (max-width: 768px) {
     display: flex;
+    width: 80%;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     margin-bottom: 42px;
   }
   @media (max-width: 480px) {
+    width: 100%;
     padding: 10px;
     gap: 22px;
   }
@@ -111,7 +97,7 @@ export const Tab = styled.div`
     }
 
     @media (max-width: 768px) {
-      font-size: 11px;
+      font-size: 12px;
       line-height: 13px;
     }
   }

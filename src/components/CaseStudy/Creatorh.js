@@ -1,18 +1,7 @@
 import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/navbar";
-import Creatorh2 from "../../assets/case-study/creatorh2.png";
-import Creatorh3 from "../../assets/case-study/creatorh3.png";
-import Creatorh4 from "../../assets/case-study/creatorh4.png";
-import Creatorh5 from "../../assets/case-study/creatorh5.png";
-import Creatorh6 from "../../assets/case-study/creatorh6.png";
-import Creatorh7 from "../../assets/case-study/creatorh7.png";
-import Creatorh8 from "../../assets/case-study/creatorh8.png";
-import Creatorh9 from "../../assets/case-study/creatorh9.png";
-import Creatorh10 from "../../assets/case-study/creatorh10.png";
-import Creatorh11 from "../../assets/case-study/creatorh11.png";
-import Creatorh12 from "../../assets/case-study/creatorh12.png";
+import Navbar from "../Navbar/Navbar";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -164,7 +153,10 @@ const Creatorh = () => {
           solution can be built for Africans.
         </p>
         <Images>
-          <img src={Creatorh2} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122647/Sinachpat/creatorh2_g0r80l.png"
+            alt=""
+          />
         </Images>
 
         <h3>User Journey Map</h3>
@@ -181,9 +173,18 @@ const Creatorh = () => {
           seamless.
         </p>
         <Images>
-          <img src={Creatorh3} alt="" />
-          <img src={Creatorh4} alt="" />
-          <img src={Creatorh5} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122648/Sinachpat/creatorh3_qfshhw.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122649/Sinachpat/creatorh4_svbkd7.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122548/Sinachpat/creatorh5_rg0lcj.png"
+            alt=""
+          />
         </Images>
 
         <h3>User Persona</h3>
@@ -202,9 +203,18 @@ const Creatorh = () => {
           effective and easy to use for everyone who uses it.
         </p>
         <Images>
-          <img src={Creatorh6} alt="" />
-          <img src={Creatorh7} alt="" />
-          <img src={Creatorh8} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh6_m0uxn3.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122550/Sinachpat/creatorh7_tzzsrp.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh8_j7wvr6.png"
+            alt=""
+          />
         </Images>
 
         <h3>Who are our stakeholders</h3>
@@ -252,14 +262,26 @@ const Creatorh = () => {
           experience and make the materials easier to read and navigate.
         </p>
         <Images>
-          <img src={Creatorh9} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122547/Sinachpat/creatorh9_g2ocxn.png"
+            alt=""
+          />
         </Images>
 
         <h3>Design Flow Presentation - and explanations</h3>
         <Images>
-          <img src={Creatorh10} alt="" />
-          <img src={Creatorh11} alt="" />
-          <img src={Creatorh12} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh10_ato09d.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122554/Sinachpat/creatorh11_qp7jxy.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122553/Sinachpat/creatorh12_ru7vjn.png"
+            alt=""
+          />
         </Images>
 
         <h3>Takeaways</h3>
@@ -320,6 +342,7 @@ const StyledCreatorh = styled.main`
     }
   }
   h2 {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
@@ -331,12 +354,12 @@ const StyledCreatorh = styled.main`
       font-size: 40px;
     }
     @media (max-width: 768px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 35px;
+      line-height: 38px;
     }
     @media (max-width: 480px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 30px;
+      line-height: 35px;
     }
   }
   h3 {
@@ -350,12 +373,12 @@ const StyledCreatorh = styled.main`
       font-size: 32px;
     }
     @media (max-width: 768px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
     @media (max-width: 480px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
   }
   h4 {
@@ -369,29 +392,29 @@ const StyledCreatorh = styled.main`
       font-size: 22px;
     }
     @media (max-width: 768px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
   }
   h5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     color: #c4c4c4;
 
     @media (max-width: 1024px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 12px;
+      font-size: 18px;
       line-height: 24px;
     }
   }
@@ -404,7 +427,7 @@ const StyledCreatorh = styled.main`
     color: #c4c4c4;
 
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }

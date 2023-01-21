@@ -1,8 +1,10 @@
 import { Container, MobileDesign } from "./Desgn.styled";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { FaAngleRight } from "react-icons/fa";
 
 const Design = () => {
+  const [check, setCheck] = useState();
+
   const refList = useRef();
   const refList2 = useRef();
   const refList3 = useRef();
@@ -10,21 +12,27 @@ const Design = () => {
     refList2.current.classList.remove("show");
     refList3.current.classList.remove("show");
     refList.current.classList.toggle("show");
-    // console.log(refOne.current);
+
+    let angle = document.getElementById("angle");
+    angle.classList.toggle("rotate");
   };
 
   const showList2 = () => {
     refList.current.classList.remove("show");
     refList3.current.classList.remove("show");
     refList2.current.classList.toggle("show");
-    // console.log(refOne.current);
+
+    let angle2 = document.getElementById("angle2");
+    angle2.classList.toggle("rotate");
   };
 
   const showList3 = () => {
     refList2.current.classList.remove("show");
     refList.current.classList.remove("show");
     refList3.current.classList.toggle("show");
-    // console.log(refOne.current);
+
+    let angle3 = document.getElementById("angle3");
+    angle3.classList.toggle("rotate");
   };
 
   return (
@@ -62,7 +70,7 @@ const Design = () => {
         <div className="blue mobile" onClick={showList}>
           <div>
             <h3>
-              Strategy & Systems <FaAngleRight />{" "}
+              Strategy & Systems <FaAngleRight id="angle" />{" "}
             </h3>
           </div>
 
@@ -79,7 +87,7 @@ const Design = () => {
         <div className="green mobile" onClick={showList2}>
           <div>
             <h3>
-              People & Teams <FaAngleRight />
+              People & Teams <FaAngleRight id="angle2" />
             </h3>
           </div>
           <ul ref={refList2}>
@@ -92,7 +100,7 @@ const Design = () => {
         <div className="purple mobile" onClick={showList3}>
           <div>
             <h3>
-              Craft & Magico <FaAngleRight />
+              Craft & Magico <FaAngleRight id="angle3" />
             </h3>
           </div>
           <ul ref={refList3}>

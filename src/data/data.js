@@ -1,40 +1,27 @@
-import img1 from "../assets/about/refactoringUI-cover.png";
-import img2 from "../assets/about/design_thinking.png";
-import img3 from "../assets/about/principles_of_product_design.png";
-import img4 from "../assets/about/product_road.png";
 import { BsStar, BsStarFill } from "react-icons/bs";
-
-import csimg1 from "../assets/case-study/RefarmB0.png";
-import csimg2 from "../assets/case-study/repute0.png";
-import csimg3 from "../assets/case-study/sonr0.png";
-import csimg4 from "../assets/case-study/RefarmF0.png";
 
 export const projects = [
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/codemarka_kzfxaw.png",
     title: "Codemarka",
-    link: "/",
   },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142147/Sinachpat/learnweb3DAO_pbdse0.png",
     title: "Learnweb3DAO",
-    link: "/",
   },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/mara_designs_niayow.png",
     title: "Mara Developers ",
-    link: "/",
   },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/premium_trust_bank_rp56b9.png",
     title: "Premium Trust Bank - Transaction Authorizer Dashboard",
-    link: "/",
   },
 ];
 
 export const works = [
   {
-    img: csimg1,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmB0_ggnquc.jpg",
     title: "Refarm for Businesses Case Study",
     class: "design",
     content:
@@ -42,7 +29,7 @@ export const works = [
     link: "/works/1",
   },
   {
-    img: csimg2,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/repute0_agxjh4.jpg",
     title: "Repute Case Study",
     class: "management",
     content:
@@ -50,7 +37,7 @@ export const works = [
     link: "/works/2",
   },
   {
-    img: csimg3,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136176/Sinachpat/sonr0_i2bt4z.jpg",
     title: "Sonr Learn Case Study",
     class: "management",
     content:
@@ -58,7 +45,7 @@ export const works = [
     link: "/works/3",
   },
   {
-    img: csimg4,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmF0_slfj20.jpg",
     title: "Refarm for Field Agents",
     class: "design",
     content:
@@ -93,7 +80,7 @@ export const works = [
 
 export const shelf = [
   {
-    img: img1,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/refactoringUI-cover_w31iw9.png",
     title: "Refactoring UI",
     author: "Adam Wathan & Steve Schoger",
     content:
@@ -107,7 +94,7 @@ export const shelf = [
     ],
   },
   {
-    img: img2,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/design_thinking_nuvhlq.png",
     title: "Design Thinking Handbook",
     author: "Eli Woolery",
     content:
@@ -121,7 +108,7 @@ export const shelf = [
     ],
   },
   {
-    img: img3,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/principles_of_product_design_frb458.png",
     title: "Principles of Product Design",
     author: "Aarron Walter",
     content:
@@ -135,7 +122,7 @@ export const shelf = [
     ],
   },
   {
-    img: img4,
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/product_road_gaghk4.png",
     title: "Roadmapping: from A to Z",
     author: "airfocus",
     content:

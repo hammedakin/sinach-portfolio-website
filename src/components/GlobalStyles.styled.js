@@ -28,7 +28,7 @@ export const RotateText = styled.div`
     position: absolute;
     width: 120px;
     height: 120px;
-    background: url("https://res.cloudinary.com/dwxv6xoni/image/upload/v1674143312/Sinachpat/Ellipse_1_qyggrw.png");
+    background: url("https://res.cloudinary.com/dwxv6xoni/image/upload/v1674239452/Sinachpat/Group_119_okohze.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -47,11 +47,19 @@ export const RotateText = styled.div`
         transform: rotate(0deg);
       }
     }
-    span {
+    .span {
       position: absolute;
       left: 50%;
-      font-size: 8px;
+      font-weight: 600;
+      /* font-size: 16px; */
+      line-height: 19px;
+      color: #ffffff;
+      font-size: 12px;
       transform-origin: 0 100px;
     }
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
   }
 `;

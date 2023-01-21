@@ -2,14 +2,6 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import Farm1 from "../../assets/case-study/farm1.png";
-import Farm2 from "../../assets/case-study/farm2.jpeg";
-import Farm3 from "../../assets/case-study/farm3.png";
-import Farm4 from "../../assets/case-study/farm4.png";
-import Farm5 from "../../assets/case-study/farm5.png";
-import Farm6 from "../../assets/case-study/farm6.png";
-import Farm7 from "../../assets/case-study/farm7.png";
-import Farm8 from "../../assets/case-study/farm8.png";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -95,7 +87,10 @@ const RefarmFarm = () => {
           a concrete understanding of the space.
         </p>
         <Images>
-          <img src={Farm1} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122558/Sinachpat/farm1_o8unml.png"
+            alt="Farm_Image"
+          />
         </Images>
 
         <h3>Hypothesis</h3>
@@ -168,7 +163,10 @@ const RefarmFarm = () => {
           to cacm.
         </p>
         <Images>
-          <img src={Farm2} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122552/Sinachpat/farm2_skqup4.jpg"
+            alt="Farm_Image"
+          />
         </Images>
         <ul>
           <li>
@@ -207,7 +205,10 @@ const RefarmFarm = () => {
           the challenges they face.
         </p>
         <Images>
-          <img src={Farm3} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122570/Sinachpat/farm3_cmwu6v.png"
+            alt="Farm_Image"
+          />
         </Images>
 
         <h3>Who are our stakeholders</h3>
@@ -280,7 +281,10 @@ const RefarmFarm = () => {
 
         <h3>Information Architecture</h3>
         <Images>
-          <img src={Farm4} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122553/Sinachpat/farm4_fahdil.png"
+            alt="Farm_Image"
+          />
         </Images>
 
         <h3>Design Elements - Style guide</h3>
@@ -289,14 +293,26 @@ const RefarmFarm = () => {
           the typography standars, brand logo, color etc.
         </p>
         <Images>
-          <img src={Farm5} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122555/Sinachpat/farm5_i7cerd.png"
+            alt="Farm_Image"
+          />
         </Images>
 
         <h3>UI Design - User friendly Interfaces</h3>
         <Images>
-          <img src={Farm6} alt="Farm_Image" />
-          <img src={Farm7} alt="Farm_Image" />
-          <img src={Farm8} alt="Farm_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122571/Sinachpat/farm6_avvx4o.png"
+            alt="Farm_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122567/Sinachpat/farm7_b9bq2y.png"
+            alt="Farm_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122557/Sinachpat/farm8_zeeqap.png"
+            alt="Farm_Image"
+          />
         </Images>
 
         <h3>Learnings and Way forward</h3>
@@ -368,6 +384,7 @@ const StyledRefarmFarm = styled.main`
     }
   }
   h2 {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
@@ -379,12 +396,12 @@ const StyledRefarmFarm = styled.main`
       font-size: 40px;
     }
     @media (max-width: 768px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 35px;
+      line-height: 38px;
     }
     @media (max-width: 480px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 30px;
+      line-height: 35px;
     }
   }
   h3 {
@@ -398,12 +415,12 @@ const StyledRefarmFarm = styled.main`
       font-size: 32px;
     }
     @media (max-width: 768px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 304px;
     }
     @media (max-width: 480px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
   }
   h4 {
@@ -417,29 +434,29 @@ const StyledRefarmFarm = styled.main`
       font-size: 22px;
     }
     @media (max-width: 768px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
   }
   h5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     color: #c4c4c4;
 
     @media (max-width: 1024px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 12px;
+      font-size: 18px;
       line-height: 24px;
     }
   }
@@ -452,11 +469,10 @@ const StyledRefarmFarm = styled.main`
     color: #c4c4c4;
 
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }
-
   @media (max-width: 480px) {
     margin-top: 66px;
   }

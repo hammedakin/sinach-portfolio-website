@@ -34,7 +34,7 @@ export const Container = styled.div`
     line-height: 25px;
     color: #ffffff;
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }
@@ -130,9 +130,7 @@ export const Banner = styled.div`
       max-width: 95%;
       div {
         margin-left: 20%;
-      }
-      @media (max-width: 1024px) {
-        img {
+        @media (max-width: 1000px) {
           display: none;
         }
       }
@@ -160,7 +158,7 @@ export const Banner = styled.div`
       @media (max-width: 480px) {
         margin-top: 0px;
         margin-bottom: 22px;
-        font-size: 11px;
+        font-size: 16px;
       }
     }
     @media (max-width: 480px) {

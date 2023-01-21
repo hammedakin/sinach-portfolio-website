@@ -47,4 +47,9 @@ export const Button = styled.div`
   z-index: 1;
   cursor: pointer;
   color: #ffffff;
+
+  @media (max-width: 1024px) {
+    left: 85%;
+    bottom: 50px;
+  }
 `;

@@ -1,15 +1,6 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/navbar";
-import img0 from "../../assets/case-study/RefarmF0.png";
-import img2 from "../../assets/case-study/RefarmF2.png";
-import img3 from "../../assets/case-study/RefarmF3.png";
-import img4 from "../../assets/case-study/RefarmF4.png";
-import img5 from "../../assets/case-study/RefarmF5.png";
-import img6 from "../../assets/case-study/RefarmF6.png";
-import img7 from "../../assets/case-study/RefarmF7.png";
-import img8 from "../../assets/case-study/RefarmF8.png";
-
+import Navbar from "../Navbar/Navbar";
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
@@ -20,7 +11,11 @@ const RefarmField = () => {
       <StyledCaseStudy>
         <div className="my-5">
           <h3 className="mb-5">Refarm for Field Agents</h3>
-          <img src={img0} alt="cover" width="100%" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmF0_slfj20.jpg"
+            alt="cover"
+            width="100%"
+          />
 
           <div className="my-3 row">
             <div className="col-md-3 col-6 mt-4">
@@ -56,7 +51,6 @@ const RefarmField = () => {
 
           <Section>
             <h4>Overview</h4>
-            {/* <img src={img1} alt="img" width="100%" /> */}
             <p>
               The Refarm app for Field Agents is an application designed to
               facilitate communication and interaction between field agents and
@@ -86,7 +80,11 @@ const RefarmField = () => {
               for optimising the app to increase efficiency.
             </p>
 
-            <img src={img2} alt="img" width="100%" />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122574/Sinachpat/RefarmF2_mzjnsb.png"
+              alt="img"
+              width="100%"
+            />
           </Section>
 
           <Section>
@@ -156,7 +154,11 @@ const RefarmField = () => {
               and transactions between farmers and Refarm. Duke values maximum
               productivity and is located in Bauchi state.
             </p>
-            <img src={img3} alt="img" width="100%" />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122609/Sinachpat/RefarmF3_sqbgwt.png"
+              alt="img"
+              width="100%"
+            />
           </Section>
 
           <Section>
@@ -238,7 +240,11 @@ const RefarmField = () => {
           <Section>
             <h4>Information Architecture</h4>
 
-            <img src={img4} alt="img" width="100%" />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122577/Sinachpat/RefarmF4_q6ezcd.png"
+              alt="img"
+              width="100%"
+            />
           </Section>
 
           <Section>
@@ -248,14 +254,30 @@ const RefarmField = () => {
               I sticked with the style guide of the product team:
             </p>
 
-            <img src={img5} alt="img" width="100%" />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122579/Sinachpat/RefarmF5_cpqdi1.png"
+              alt="img"
+              width="100%"
+            />
           </Section>
 
           <Section>
             <h4>Interface Designs</h4>
-            <img src={img6} alt="img" width="100%" />
-            <img src={img7} alt="img" width="100%" />
-            <img src={img8} alt="img" width="100%" />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122650/Sinachpat/RefarmF6_xiv7zn.png"
+              alt="img"
+              width="100%"
+            />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122590/Sinachpat/RefarmF7_nnwpua.png"
+              alt="img"
+              width="100%"
+            />
+            <img
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122599/Sinachpat/RefarmF8_mlnhdc.png"
+              alt="img"
+              width="100%"
+            />
           </Section>
 
           <Section>

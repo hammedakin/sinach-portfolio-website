@@ -13,14 +13,14 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 45px;
 
-    a {
+    p {
       font-weight: 700;
       font-size: 20px;
       line-height: 24px;
       color: #ffffff;
       margin-bottom: 68px;
       @media (max-width: 768px) {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 15px;
         margin-bottom: 20px;
       }

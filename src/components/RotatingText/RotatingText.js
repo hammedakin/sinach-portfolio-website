@@ -1,15 +1,105 @@
-import { useRef } from "react";
+import { useEffect } from "react";
 import { RotateText } from "../../components/GlobalStyles.styled";
 
 const RotatingText = () => {
-  const para = useRef(null);
+  let textArray = [
+    "U",
+    "X",
+    " ",
+    "D",
+    "e",
+    "s",
+    "i",
+    "g",
+    "n",
+    " ",
+    ".",
+    " ",
+    "A",
+    "t",
+    "o",
+    "m",
+    "i",
+    "c",
+    " ",
+    "D",
+    "e",
+    "s",
+    "i",
+    "g",
+    "n",
+    " ",
+    ".",
+    " ",
+    "P",
+    "r",
+    "o",
+    "d",
+    "u",
+    "c",
+    "t",
+    " ",
+    ".",
+    " ",
+    "U",
+    "X",
+    " ",
+    "S",
+    "t",
+    "r",
+    "a",
+    "t",
+    "e",
+    "g",
+    "y",
+    " ",
+    ".",
+    " ",
+    "C",
+    "r",
+    "e",
+    "a",
+    "t",
+    "i",
+    "v",
+    "e",
+    " ",
+    "D",
+    "e",
+    "s",
+    "i",
+    "g",
+    "n",
+    " ",
+    ".",
+  ];
 
   return (
     <RotateText>
       <div className="logo"></div>
       <div className="text">
-        <p ref={para}>
-          <span style={{ transform: `rotate(${0}deg)` }}>U</span>
+        <p id="my-paragraph">
+          {textArray.map((word, i) => {
+            return (
+              <span
+                className="span"
+                key={i}
+                style={{ transform: `rotate(${i * 5.2}deg)` }}
+              >
+                {" "}
+                {word}{" "}
+              </span>
+            );
+          })}
+        </p>
+      </div>
+    </RotateText>
+  );
+};
+
+export default RotatingText;
+
+/* <span style={{ transform: `rotate(${0}deg)` }}>U</span>
           <span style={{ transform: `rotate(${4.7}deg)` }}>X</span>
           <span style={{ transform: `rotate(${9.4}deg)` }}> </span>
           <span style={{ transform: `rotate(${14.1}deg)` }}>D</span>
@@ -84,12 +174,4 @@ const RotatingText = () => {
           <span style={{ transform: `rotate(${338.4}deg)` }}> </span>
           <span style={{ transform: `rotate(${343.1}deg)` }}>.</span>
           <span style={{ transform: `rotate(${347.8}deg)` }}> </span>
-          <span style={{ transform: `rotate(${352.5}deg)` }}>.</span>
-          {/* UX Design . Atomic Design . Product . UX Strategy . Creative Direction */}
-        </p>
-      </div>
-    </RotateText>
-  );
-};
-
-export default RotatingText;
+          <span style={{ transform: `rotate(${352.5}deg)` }}>.</span> */

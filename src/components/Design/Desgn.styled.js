@@ -31,7 +31,7 @@ export const Container = styled.div`
       border-radius: 5px;
       white-space: nowrap;
       @media (max-width: 480px) {
-        font-size: 11px;
+        font-size: 16px;
         line-height: 13px;
       }
     }
@@ -80,6 +80,9 @@ export const MobileDesign = styled.div`
   display: flex;
   flex-direction: column;
   gap: 23px;
+  .rotate {
+    transform: rotate(90deg);
+  }
   .mobile {
     div {
       outline: none;
