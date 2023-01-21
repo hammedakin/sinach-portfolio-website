@@ -22,6 +22,7 @@ const Home = () => {
   const [ploading, setploading] = useState(false);
 
   useEffect(() => {
+    document.title = "Sinach Pat | Product Designer";
     setploading(true);
     setTimeout(() => {
       setploading(false);
