@@ -5,6 +5,7 @@ import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
 const RefarmB = () => {
+
   return (
     <Container>
       <Navbar />
@@ -16,6 +17,44 @@ const RefarmB = () => {
             alt="cover"
             width="100%"
           />
+                  <div className="my-3 row">
+                    <div className="col-md-3 col-6 mt-4">
+                      <h6>
+                        My role :
+                      </h6>
+                      <p className="fw-light">
+                        Lead User Experience (UX) Designer, Interaction Designer, UX Researcher
+                      </p>
+                    </div>
+                    <div className="col-md-3 col-6 mt-4">
+                      <h6>
+                        Length :
+                      </h6>
+                      <p className="fw-light">
+                        4 Weeks
+                      </p>
+
+                    </div>
+                    <div className="col-md-3 col-6 mt-4">
+                      <h6>
+                        Outcome :
+                      </h6>
+
+                      <p className="fw-light">
+                        UX & UI Design<br /> UI Components<br /> Product Design
+                      </p>
+                    </div>
+                    <div className="col-md-3 col-6 mt-4">
+                      <h6>
+                        Tools :
+                      </h6>
+                      <p className="fw-light">
+                        Figma<br /> Notion<br /> Miro<br /> Trello
+                      </p>
+
+                    </div>
+
+                  </div>
           <Section>
             <h4>Overview</h4>
             <p>
@@ -294,11 +333,10 @@ const RefarmB = () => {
             </p>
           </Section>
         </div>
-
         <CSButtons prev={""} next={"2"} />
       </StyledCaseStudy>
       <Footer />
-    </Container>
+    </Container >
   );
 };
 

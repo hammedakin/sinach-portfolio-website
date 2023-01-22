@@ -68,9 +68,11 @@ const About = () => {
         </div>
         <hr />
         <ThoughtShared />
-        <StyledButton>
-          <Link to="/">Show all </Link> <BsArrowRight />
-        </StyledButton>
+        <a href="https://medium.com/@sinachpat" target='_blank'>
+          <StyledButton>
+            Show all <BsArrowRight />
+          </StyledButton>
+        </a>
         <Footer />
       </StyledAbout>
     </Container>

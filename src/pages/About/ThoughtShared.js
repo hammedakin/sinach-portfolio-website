@@ -5,8 +5,21 @@ import styled from "styled-components";
 const ThoughtShared = () => {
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState([]);
-  const endpoint = "https://medium2.p.rapidapi.com/";
-  const user_id = "1985b61817c3";
+  // const endpoint = 'https://medium.com/';
+  const endpoint = 'https://medium2.p.rapidapi.com/';
+  const user_id = '@sinachpat';
+
+
+  axios.get(`${ endpoint }feed/${ user_id }`,
+  //  {
+  //   headers: {
+  //     'X-RapidAPI-Key': '55943390a9mshbed19256ae6092cp17efedjsn91739d2ff04e',
+  //     'X-RapidAPI-Host': 'medium2.p.rapidapi.com'
+  //   }
+  // }
+  )
+  // const endpoint = "https://medium2.p.rapidapi.com/";
+  // const user_id = "1985b61817c3";
 
   axios
     .get(`${endpoint}user/${user_id}/articles`, {
