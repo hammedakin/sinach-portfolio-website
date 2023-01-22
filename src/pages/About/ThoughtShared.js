@@ -6,8 +6,8 @@ const ThoughtShared = () => {
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState([]);
   // const endpoint = 'https://medium.com/';
-  // const endpoint = 'https://medium2.p.rapidapi.com/';
-  // const user_id = '@sinachpat';
+  const endpoint = 'https://medium2.p.rapidapi.com/';
+  const user_id = '@sinachpat';
 
 
   axios.get(`${ endpoint }feed/${ user_id }`,
@@ -18,8 +18,8 @@ const ThoughtShared = () => {
   //   }
   // }
   )
-  const endpoint = "https://medium2.p.rapidapi.com/";
-  const user_id = "1985b61817c3";
+  // const endpoint = "https://medium2.p.rapidapi.com/";
+  // const user_id = "1985b61817c3";
 
   axios
     .get(`${endpoint}user/${user_id}/articles`, {

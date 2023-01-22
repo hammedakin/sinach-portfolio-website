@@ -1,15 +1,5 @@
 import { BsStar, BsStarFill } from "react-icons/bs";
 
-import image1 from "../assets/Stanrute_Cover 1.png";
-import image2 from "../assets/Refarm for Farmers 1.png";
-
-import project1 from "../assets/Ads Flier 1.png";
-
-import csimg1 from '../assets/case-study/RefarmB0.png';
-import csimg2 from '../assets/case-study/repute0.png';
-import csimg3 from '../assets/case-study/sonr0.png';
-import csimg4 from '../assets/case-study/RefarmF0.png';
-
 export const projects = [
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674142146/Sinachpat/codemarka_kzfxaw.png",

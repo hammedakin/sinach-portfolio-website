@@ -1,16 +1,6 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import img0 from "../../assets/case-study/RefarmF0.png";
-import img2 from "../../assets/case-study/RefarmF2.png";
-import img3 from "../../assets/case-study/RefarmF3.png";
-import img4 from "../../assets/case-study/RefarmF4.png";
-import img5 from "../../assets/case-study/RefarmF5.png";
-import img6 from "../../assets/case-study/RefarmF6.png";
-import img7 from "../../assets/case-study/RefarmF7.png";
-import img8 from "../../assets/case-study/RefarmF8.png";
-
-import { Section, StyledCaseStudy, } from "./CaseStudy.styled";
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
