@@ -264,12 +264,12 @@ const RefarmField = () => {
           <Section>
             <h4>Interface Designs</h4>
             <img
-              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122650/Sinachpat/RefarmF6_xiv7zn.png"
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/v1674420343/Sinachpat/RefarmF6_afeur9.png"
               alt="img"
               width="100%"
             />
             <img
-              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122590/Sinachpat/RefarmF7_nnwpua.png"
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/v1674420335/Sinachpat/RefarmF7_iq9lqf.png"
               alt="img"
               width="100%"
             />

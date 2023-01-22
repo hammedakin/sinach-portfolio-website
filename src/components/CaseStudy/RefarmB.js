@@ -5,7 +5,6 @@ import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
 const RefarmB = () => {
-
   return (
     <Container>
       <Navbar />
@@ -17,44 +16,37 @@ const RefarmB = () => {
             alt="cover"
             width="100%"
           />
-                  <div className="my-3 row">
-                    <div className="col-md-3 col-6 mt-4">
-                      <h6>
-                        My role :
-                      </h6>
-                      <p className="fw-light">
-                        Lead User Experience (UX) Designer, Interaction Designer, UX Researcher
-                      </p>
-                    </div>
-                    <div className="col-md-3 col-6 mt-4">
-                      <h6>
-                        Length :
-                      </h6>
-                      <p className="fw-light">
-                        4 Weeks
-                      </p>
+          <div className="my-3 row">
+            <div className="col-md-3 col-6 mt-4">
+              <h6>My role :</h6>
+              <p className="fw-light">
+                Lead User Experience (UX) Designer, Interaction Designer, UX
+                Researcher
+              </p>
+            </div>
+            <div className="col-md-3 col-6 mt-4">
+              <h6>Length :</h6>
+              <p className="fw-light">4 Weeks</p>
+            </div>
+            <div className="col-md-3 col-6 mt-4">
+              <h6>Outcome :</h6>
 
-                    </div>
-                    <div className="col-md-3 col-6 mt-4">
-                      <h6>
-                        Outcome :
-                      </h6>
-
-                      <p className="fw-light">
-                        UX & UI Design<br /> UI Components<br /> Product Design
-                      </p>
-                    </div>
-                    <div className="col-md-3 col-6 mt-4">
-                      <h6>
-                        Tools :
-                      </h6>
-                      <p className="fw-light">
-                        Figma<br /> Notion<br /> Miro<br /> Trello
-                      </p>
-
-                    </div>
-
-                  </div>
+              <p className="fw-light">
+                UX & UI Design
+                <br /> UI Components
+                <br /> Product Design
+              </p>
+            </div>
+            <div className="col-md-3 col-6 mt-4">
+              <h6>Tools :</h6>
+              <p className="fw-light">
+                Figma
+                <br /> Notion
+                <br /> Miro
+                <br /> Trello
+              </p>
+            </div>
+          </div>
           <Section>
             <h4>Overview</h4>
             <p>
@@ -166,7 +158,7 @@ const RefarmB = () => {
             </p>
 
             <img
-              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122603/Sinachpat/RefarmB1_tmw0ca.png"
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674311252/Sinachpat/Mr._Kenneth_Williams_lztguq.jpg"
               alt="img"
               width="100%"
             />
@@ -182,7 +174,7 @@ const RefarmB = () => {
             </p>
 
             <img
-              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122569/Sinachpat/RefarmB2_ddpc7y.png"
+              src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674311247/Sinachpat/Mrs._Dorcas_fytw2x.jpg"
               alt="img"
               width="100%"
             />
@@ -336,7 +328,7 @@ const RefarmB = () => {
         <CSButtons prev={""} next={"2"} />
       </StyledCaseStudy>
       <Footer />
-    </Container >
+    </Container>
   );
 };
 

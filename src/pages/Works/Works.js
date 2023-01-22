@@ -18,7 +18,7 @@ const Works = () => {
         <AllWorks />
       </Main>
       <SubMain>
-        <h3>Other projects/UI Designs=</h3>
+        <h3>Other projects/UI Designs</h3>
         <Project />
       </SubMain>
       <Footer />
