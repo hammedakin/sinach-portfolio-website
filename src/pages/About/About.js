@@ -6,8 +6,12 @@ import Navbar from "../../components/Navbar/Navbar";
 import { Container } from "../Home/Home.styled";
 import { AboutHeader, StyledAbout } from "./About.styled";
 import ThoughtShared from "./ThoughtShared";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Sinach Pat | About me";
+  }, []);
   return (
     <Container>
       <StyledAbout>

@@ -3,6 +3,7 @@ import { works } from "../../data/data";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { Container, Tab } from "./Works.styled";
+import { StyledButton } from "../GlobalStyles.styled";
 
 const Works = () => {
   const [name, setName] = useState("design");
@@ -49,8 +50,11 @@ const Works = () => {
                 <div className="content">
                   <h3>{title}</h3>
                   <p> {content} </p>
+
                   <Link to={link}>
-                    Read Case Study  <BsArrowRight />
+                    <StyledButton>
+                      Read Case Study <BsArrowRight />
+                    </StyledButton>
                   </Link>
                 </div>
                 <div className="image">

@@ -3,8 +3,12 @@ import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import AllWorks from "../../components/Works/AllWorks";
 import Project from "../../components/Projects/Project";
+import { useEffect } from "react";
 
 const Works = () => {
+  useEffect(() => {
+    document.title = "Sinach Pat | Works";
+  }, []);
   return (
     <Container>
       <Navbar />

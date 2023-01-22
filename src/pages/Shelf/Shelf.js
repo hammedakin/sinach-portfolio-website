@@ -4,8 +4,13 @@ import PersonalKnowledge from "../About/PersonalKnowledge";
 import { Container } from "../Home/Home.styled";
 import AllShelf from "./AllShelf";
 import { StyledShelf } from "./Shelf.styled";
+import { useEffect } from "react";
 
 const Shelf = () => {
+  useEffect(() => {
+    document.title = "Sinach Pat | Shelf";
+  }, []);
+
   return (
     <StyledShelf>
       <Container>

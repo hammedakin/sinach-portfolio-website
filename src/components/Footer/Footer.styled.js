@@ -135,7 +135,7 @@ export const Socials = styled.div`
   padding-top: 41px;
   border-top: 2px solid #80839c;
 
-  div {
+  a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +144,9 @@ export const Socials = styled.div`
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     color: #ffffff;
+    div {
+      color: #ffffff;
+    }
   }
   @media (max-width: 768px) {
     padding-top: 20px;

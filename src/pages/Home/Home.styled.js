@@ -34,7 +34,7 @@ export const Container = styled.div`
     line-height: 25px;
     color: #ffffff;
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }
@@ -127,32 +127,11 @@ export const Banner = styled.div`
     }
     div {
       display: flex;
-      align-items: flex-start;
       max-width: 95%;
-      justify-content: space-between;
-      button {
-        border: none;
-        outline: none;
-        padding: 14px 47px;
-        background: #086bff;
-        color: #ffffff;
-        border-radius: 5px;
-        box-shadow: 2px 2px 0 2px #ffffff;
-        a {
-          color: #ffffff;
-          margin-right: 5px;
-          @media (max-width: 480px) {
-            font-size: 11px;
-          }
-        }
-      }
-      @media (max-width: 1024px) {
-        img {
+      div {
+        margin-left: 20%;
+        @media (max-width: 1000px) {
           display: none;
-        }
-        button {
-          margin-top: 18px;
-          padding: 12px 37px;
         }
       }
     }
@@ -179,7 +158,7 @@ export const Banner = styled.div`
       @media (max-width: 480px) {
         margin-top: 0px;
         margin-bottom: 22px;
-        font-size: 11px;
+        font-size: 16px;
       }
     }
     @media (max-width: 480px) {

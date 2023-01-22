@@ -34,9 +34,12 @@ const Navbar = () => {
             {title}
           </NavLink>
         ))}
-        <Link to="/" className="resume">
+        <a
+          href="https://drive.google.com/file/d/1pYCATXyWPrFaJrXOLlkeHWWee0qc45vK/view?usp=sharing"
+          className="resume"
+        >
           Download Resume
-        </Link>
+        </a>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>

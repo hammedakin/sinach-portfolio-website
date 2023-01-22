@@ -11,11 +11,13 @@ import RefarmField from "./components/CaseStudy/RefarmField";
 import RefarmFarm from "./components/CaseStudy/RefarmFarm";
 import Creatorh from "./components/CaseStudy/Creatorh";
 import Stanrute from "./components/CaseStudy/Stanrute";
-
+import ScrollToTop from "./components/ScrollToTop";
+import ScrollButton from "./components/ScrollBtn";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
@@ -27,12 +29,14 @@ function App() {
         <Route exact path="/works/2" element={<Repute />} />
         <Route exact path="/works/3" element={<Sonr />} />
         <Route exact path="/works/4" element={<RefarmField />} />
-        <Route exact path="/works/5" element={<RefarmFarm/>} />
+        <Route exact path="/works/5" element={<RefarmFarm />} />
         <Route exact path="/works/6" element={<Creatorh />} />
         <Route exact path="/works/7" element={<Stanrute />} />
 
         {/* Case Study */}
       </Routes>
+
+      <ScrollButton />
     </div>
   );
 }

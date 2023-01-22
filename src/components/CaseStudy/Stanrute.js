@@ -2,22 +2,6 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import Stanrute1 from "../../assets/case-study/stanrute1.png";
-import Stanrute2 from "../../assets/case-study/stanrute2.png";
-import Stanrute3 from "../../assets/case-study/stanrute3.png";
-import Stanrute4 from "../../assets/case-study/stanrute4.png";
-import Stanrute5 from "../../assets/case-study/stanrute5.png";
-import Stanrute6 from "../../assets/case-study/stanrute6.png";
-import Stanrute7 from "../../assets/case-study/stanrute7.png";
-import Stanrute8 from "../../assets/case-study/stanrute8.png";
-import Stanrute9 from "../../assets/case-study/stanrute9.png";
-import Stanrute10 from "../../assets/case-study/stanrute10.png";
-import Stanrute11 from "../../assets/case-study/stanrute11.png";
-import Stanrute12 from "../../assets/case-study/stanrute12.png";
-import Stanrute13 from "../../assets/case-study/stanrute13.png";
-import Stanrute14 from "../../assets/case-study/stanrute14.png";
-import Stanrute15 from "../../assets/case-study/stanrute15.png";
-import Stanrute16 from "../../assets/case-study/stanrute16.png";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -27,21 +11,37 @@ const Stanrute = () => {
     <Container>
       <Navbar />
       <StyledStanrute>
-        <h2>Stanrute Case Study Content</h2>
+        <h2>Stanrute Case Study</h2>
 
-        <h5>
-          <span>My role :</span> Product and Design Lead
-        </h5>
-        <h5>
-          <span>Length :</span> 6 Weeks
-        </h5>
-        <h5>
-          <span>Outcome :</span> UX & UI Design, UI Components, Product Design
-        </h5>
-        <h5>
-          <span>Tools :</span> Figma, Notion, Miro, Trello
-        </h5>
-
+        <Images>
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156481/Sinachpat/stanrute0_l7twew.png"
+            alt=""
+          />
+        </Images>
+        <div className="Intro">
+          <div className="role">
+            <h5>My role</h5>
+            <p>Product and Design Lead</p>
+          </div>
+          <div className="length">
+            <h5>Length</h5>
+            <p>6 Weeks</p>
+          </div>
+          <div className="outcome">
+            <h5>Outcome</h5>
+            <p>UX & UI Design</p>
+            <p>UI Components</p>
+            <p>Product Design</p>
+          </div>
+          <div className="tools">
+            <h5>Tools</h5>
+            <p>Figma</p>
+            <p>Notion</p>
+            <p>Miro</p>
+            <p>Trello</p>
+          </div>
+        </div>
         <h3>Overview</h3>
         <p>
           The company building the cryptoeconomy for Africa, Stanrute, began in
@@ -85,14 +85,38 @@ const Stanrute = () => {
         </p>
 
         <Images>
-          <img src={Stanrute1} alt="Stanrute_Image" />
-          <img src={Stanrute2} alt="Stanrute_Image" />
-          <img src={Stanrute3} alt="Stanrute_Image" />
-          <img src={Stanrute4} alt="Stanrute_Image" />
-          <img src={Stanrute5} alt="Stanrute_Image" />
-          <img src={Stanrute6} alt="Stanrute_Image" />
-          <img src={Stanrute7} alt="Stanrute_Image" />
-          <img src={Stanrute8} alt="Stanrute_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122630/Sinachpat/stanrute1_axkdl8.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122629/Sinachpat/stanrute2_gbco01.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122633/Sinachpat/stanrute3_rfqoru.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122633/Sinachpat/stanrute4_owotie.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122633/Sinachpat/stanrute5_ezjob3.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122634/Sinachpat/stanrute6_sa8drt.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122634/Sinachpat/stanrute7_henwsw.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122635/Sinachpat/stanrute8_g8ym6j.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <p>
@@ -112,7 +136,10 @@ const Stanrute = () => {
           activities.
         </p>
         <Images>
-          <img src={Stanrute9} alt="Stanrute_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122641/Sinachpat/stanrute9_wwdecb.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <h3>Empathy Mapping</h3>
@@ -133,7 +160,10 @@ const Stanrute = () => {
           provide a positive and seamless experience.
         </p>
         <Images>
-          <img src={Stanrute10} alt="Stanrute_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122644/Sinachpat/stanrute10_vvlhvz.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <h3>Value Proposition</h3>
@@ -411,22 +441,39 @@ const Stanrute = () => {
           management policies, but I’ll give a summary of the Strategy matrix.
         </p>
         <Images>
-          <img src={Stanrute11} alt="Stanrute_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122642/Sinachpat/stanrute11_ysdbvl.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <h3>Design Flow for each stages</h3>
         <p>Have a feel of the awesomeness ✨</p>
         <Images>
-          <img src={Stanrute12} alt="Stanrute_Image" />
-          <img src={Stanrute13} alt="Stanrute_Image" />
-          <img src={Stanrute14} alt="Stanrute_Image" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122641/Sinachpat/stanrute12_icx8us.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122644/Sinachpat/stanrute13_y81pbd.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122645/Sinachpat/stanrute14_qzep28.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <h3>Design Style guides</h3>
         <Images>
-          <img src={Stanrute15} alt="Stanrute_Image" />
-          <img src={Stanrute16} alt="Stanrute_Image" />
-          {/* <img src={Stanrute14} alt="Stanrute_Image"/> */}
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122645/Sinachpat/stanrute15_yk3qp5.png"
+            alt="Stanrute_Image"
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122653/Sinachpat/stanrute16_ngz6fz.png"
+            alt="Stanrute_Image"
+          />
         </Images>
 
         <h3>Use Cases</h3>
@@ -501,7 +548,7 @@ const Stanrute = () => {
 
           <Link to="/works">
             <StyledButton>
-              <FaArrowRight /> Next
+              Next <FaArrowRight />
             </StyledButton>
           </Link>
         </div>
@@ -517,7 +564,28 @@ export default Stanrute;
 const StyledStanrute = styled.main`
   margin-top: 151px;
   min-height: 100vh;
+  .Intro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    gap: 60px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 3px;
+      }
+    }
+    @media (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
   h2 {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
@@ -529,12 +597,12 @@ const StyledStanrute = styled.main`
       font-size: 40px;
     }
     @media (max-width: 768px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 35px;
+      line-height: 38px;
     }
     @media (max-width: 480px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 30px;
+      line-height: 35px;
     }
   }
   h3 {
@@ -548,12 +616,12 @@ const StyledStanrute = styled.main`
       font-size: 32px;
     }
     @media (max-width: 768px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
     @media (max-width: 480px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
   }
   h4 {
@@ -567,29 +635,29 @@ const StyledStanrute = styled.main`
       font-size: 22px;
     }
     @media (max-width: 768px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
   }
   h5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     color: #c4c4c4;
 
     @media (max-width: 1024px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 12px;
+      font-size: 18px;
       line-height: 24px;
     }
   }
@@ -602,11 +670,10 @@ const StyledStanrute = styled.main`
     color: #c4c4c4;
 
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }
-
   @media (max-width: 480px) {
     margin-top: 66px;
   }

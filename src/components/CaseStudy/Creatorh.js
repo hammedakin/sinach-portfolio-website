@@ -2,18 +2,6 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import Creatorh1 from "../../assets/case-study/creatorh1.png";
-import Creatorh2 from "../../assets/case-study/creatorh2.png";
-import Creatorh3 from "../../assets/case-study/creatorh3.png";
-import Creatorh4 from "../../assets/case-study/creatorh4.png";
-import Creatorh5 from "../../assets/case-study/creatorh5.png";
-import Creatorh6 from "../../assets/case-study/creatorh6.png";
-import Creatorh7 from "../../assets/case-study/creatorh7.png";
-import Creatorh8 from "../../assets/case-study/creatorh8.png";
-import Creatorh9 from "../../assets/case-study/creatorh9.png";
-import Creatorh10 from "../../assets/case-study/creatorh10.png";
-import Creatorh11 from "../../assets/case-study/creatorh11.png";
-import Creatorh12 from "../../assets/case-study/creatorh12.png";
 import { Link } from "react-router-dom";
 import { StyledButton } from "../GlobalStyles.styled";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -25,23 +13,37 @@ const Creatorh = () => {
       <StyledCreatorh>
         <h2>Creatorh Case Study</h2>
 
-        <h5>
-          <span>My role :</span> Lead User Experience (UX) Designer, Interaction
-          Designer
-        </h5>
-        <h5>
-          <span>Length :</span> 4 Weeks
-        </h5>
-        <h5>
-          <span>Outcome :</span> UX & UI Design, UI Components, Product Design
-        </h5>
-        <h5>
-          <span>Tools :</span> Figma, Notion, Miro, Trello
-        </h5>
-
         <Images>
-          <img src={Creatorh1} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/creatorh0_oaviib.png"
+            alt=""
+          />
         </Images>
+        <div className="Intro">
+          <div className="role">
+            <h5>My role</h5>
+            <p>Lead User Experience (UX) Designer</p>
+            <p>Interaction Designer</p>
+          </div>
+          <div className="length">
+            <h5>Length</h5>
+            <p>4 Weeks</p>
+          </div>
+          <div className="outcome">
+            <h5>Outcome</h5>
+            <p>UX & UI Design</p>
+            <p>UI Components</p>
+            <p>Product Design</p>
+          </div>
+          <div className="tools">
+            <h5>Tools</h5>
+            <p>Figma</p>
+            <p>Notion</p>
+            <p>Miro</p>
+            <p>Trello</p>
+          </div>
+        </div>
+
         <h3>Challenge</h3>
         <h4>⚡ Social Network for the Next Billon Creators</h4>
         <p>
@@ -151,7 +153,10 @@ const Creatorh = () => {
           solution can be built for Africans.
         </p>
         <Images>
-          <img src={Creatorh2} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122647/Sinachpat/creatorh2_g0r80l.png"
+            alt=""
+          />
         </Images>
 
         <h3>User Journey Map</h3>
@@ -168,9 +173,18 @@ const Creatorh = () => {
           seamless.
         </p>
         <Images>
-          <img src={Creatorh3} alt="" />
-          <img src={Creatorh4} alt="" />
-          <img src={Creatorh5} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122648/Sinachpat/creatorh3_qfshhw.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122649/Sinachpat/creatorh4_svbkd7.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122548/Sinachpat/creatorh5_rg0lcj.png"
+            alt=""
+          />
         </Images>
 
         <h3>User Persona</h3>
@@ -189,9 +203,18 @@ const Creatorh = () => {
           effective and easy to use for everyone who uses it.
         </p>
         <Images>
-          <img src={Creatorh6} alt="" />
-          <img src={Creatorh7} alt="" />
-          <img src={Creatorh8} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh6_m0uxn3.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122550/Sinachpat/creatorh7_tzzsrp.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh8_j7wvr6.png"
+            alt=""
+          />
         </Images>
 
         <h3>Who are our stakeholders</h3>
@@ -239,14 +262,26 @@ const Creatorh = () => {
           experience and make the materials easier to read and navigate.
         </p>
         <Images>
-          <img src={Creatorh9} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122547/Sinachpat/creatorh9_g2ocxn.png"
+            alt=""
+          />
         </Images>
 
         <h3>Design Flow Presentation - and explanations</h3>
         <Images>
-          <img src={Creatorh10} alt="" />
-          <img src={Creatorh11} alt="" />
-          <img src={Creatorh12} alt="" />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122549/Sinachpat/creatorh10_ato09d.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122554/Sinachpat/creatorh11_qp7jxy.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122553/Sinachpat/creatorh12_ru7vjn.png"
+            alt=""
+          />
         </Images>
 
         <h3>Takeaways</h3>
@@ -271,7 +306,7 @@ const Creatorh = () => {
 
           <Link to="/works/7">
             <StyledButton>
-              <FaArrowRight /> Next
+              Next <FaArrowRight />
             </StyledButton>
           </Link>
         </div>
@@ -286,7 +321,28 @@ export default Creatorh;
 const StyledCreatorh = styled.main`
   margin-top: 151px;
   min-height: 100vh;
+  .Intro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    gap: 60px;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 3px;
+      }
+    }
+    @media (max-width: 480px) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
   h2 {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
@@ -298,12 +354,12 @@ const StyledCreatorh = styled.main`
       font-size: 40px;
     }
     @media (max-width: 768px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 35px;
+      line-height: 38px;
     }
     @media (max-width: 480px) {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 30px;
+      line-height: 35px;
     }
   }
   h3 {
@@ -317,12 +373,12 @@ const StyledCreatorh = styled.main`
       font-size: 32px;
     }
     @media (max-width: 768px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
     @media (max-width: 480px) {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 25px;
+      line-height: 30px;
     }
   }
   h4 {
@@ -336,29 +392,29 @@ const StyledCreatorh = styled.main`
       font-size: 22px;
     }
     @media (max-width: 768px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 17px;
+      font-size: 20px;
       line-height: 24px;
     }
   }
   h5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 28px;
     color: #c4c4c4;
 
     @media (max-width: 1024px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 24px;
     }
     @media (max-width: 480px) {
-      font-size: 12px;
+      font-size: 18px;
       line-height: 24px;
     }
   }
@@ -371,7 +427,7 @@ const StyledCreatorh = styled.main`
     color: #c4c4c4;
 
     @media (max-width: 480px) {
-      font-size: 11px;
+      font-size: 16px;
       margin-bottom: 24px;
     }
   }

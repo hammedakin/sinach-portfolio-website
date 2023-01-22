@@ -17,7 +17,6 @@ export const Header = styled.div`
     outline: none;
     color: #ffffff;
     background: transparent;
-    padding: 10px;
     cursor: pointer;
     font-size: 1.8rem;
     display: none;

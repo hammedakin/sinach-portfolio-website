@@ -6,13 +6,13 @@ export const Container = styled.div`
   width: 100%;
   padding: 22px;
   gap: 50px;
-  border: 2px solid #ffffff;
   margin-bottom: 80px;
   background: linear-gradient(
     180deg,
     rgba(8, 107, 255, 0.1) 0%,
     rgba(85, 153, 255, 0.1) 100%
   );
+  border: 1px solid #bfd9ff;
   border-radius: 20px;
 
   .content {
@@ -20,7 +20,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     padding-left: 40px;
-    /* align-items: center; */
+
     h3 {
       font-weight: 800;
       font-size: 40px;
@@ -37,37 +37,11 @@ export const Container = styled.div`
       line-height: 23px;
       color: #ffffff;
       @media (max-width: 480px) {
-        font-size: 11px;
+        font-size: 16px;
         line-height: 23px;
       }
     }
-    a {
-      border: none;
-      outline: none;
-      width: 50%;
-      padding: 14px 47px;
-      background: #086bff;
-      color: #ffffff;
-      border-radius: 5px;
-      box-shadow: 2px 2px 0 2px #ffffff;
 
-      color: #ffffff;
-      margin-right: 5px;
-      @media (max-width: 1000px) {
-        width: 80%;
-      }
-      @media (max-width: 768px) {
-        width: 40%;
-      }
-      @media (max-width: 767px) {
-        width: 65%;
-      }
-      @media (max-width: 480px) {
-        font-size: 11px;
-        padding: 12px 13px;
-        width: 60%;
-      }
-    }
     @media (max-width: 1000px) {
       padding-left: 20px;
     }
@@ -83,16 +57,20 @@ export const Container = styled.div`
     display: flex;
     img {
       max-width: 100%;
+      border-radius: 15px;
     }
   }
+
   @media (max-width: 768px) {
     display: flex;
+    width: 80%;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     margin-bottom: 42px;
   }
   @media (max-width: 480px) {
+    width: 100%;
     padding: 10px;
     gap: 22px;
   }
@@ -119,7 +97,7 @@ export const Tab = styled.div`
     }
 
     @media (max-width: 768px) {
-      font-size: 11px;
+      font-size: 12px;
       line-height: 13px;
     }
   }
