@@ -1,8 +1,6 @@
 * {
   padding: 0px;
   margin: 0px;
-  max-width: 1440px;
-  /* margin: 0px auto; */
   box-sizing: border-box;
 }
 .App {
@@ -11,6 +9,9 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
+  max-width: 1440px;
+
+  margin: 0px auto;
   font-size: 16px;
   line-height: 19px;
   background: url("https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:good/f_auto/v1674122161/Sinachpat/background_ga1qlz.png"), #000313;
