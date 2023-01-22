@@ -9,10 +9,10 @@ import image2 from "../assets/Refarm for Farmers 1.png";
 
 import project1 from "../assets/Ads Flier 1.png";
 
-import csimg1 from '../assets/case-study/RefarmB0.png'
-import csimg2 from '../assets/case-study/repute0.png'
-import csimg3 from '../assets/case-study/sonr0.png'
-import csimg4 from '../assets/case-study/RefarmF0.png'
+import csimg1 from '../assets/case-study/RefarmB0.png';
+import csimg2 from '../assets/case-study/repute0.png';
+import csimg3 from '../assets/case-study/sonr0.png';
+import csimg4 from '../assets/case-study/RefarmF0.png';
 
 export const projects = [
   {
@@ -169,16 +169,16 @@ export const knowledge = [
   {
     type: "PMP",
     title: "The Product Management Playbook",
-    to: "",
+    to: "https://heady-cocoa-538.notion.site/Product-Management-Playbook-cec1efb5472e47ffbbcbc5d235ae9279",
   },
   {
     type: "CAM",
     title: "Competitive Analysis Matrix Template",
-    to: "",
+    to: "https://heady-cocoa-538.notion.site/Analysis-Matrix-1eb6a4386aed431ca368f895d6d03d3e",
   },
   {
     type: "PRD",
     title: "Product Requirement Document Template",
-    to: "",
+    to: "https://heady-cocoa-538.notion.site/Product-Requirements-Document-Template-09a723f98a4e4b31982e2dc00b45fd2f",
   },
 ];
