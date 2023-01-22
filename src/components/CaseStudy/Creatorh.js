@@ -11,7 +11,10 @@ const Creatorh = () => {
     <Container>
       <Navbar />
       <StyledCreatorh>
-        <h2>Creatorh Case Study</h2>
+        <h2>
+          Creatorh: A community for African Entrepreneurs, Professionals and
+          Creatives
+        </h2>
 
         <Images>
           <img

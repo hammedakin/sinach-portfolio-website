@@ -11,7 +11,7 @@ const Stanrute = () => {
     <Container>
       <Navbar />
       <StyledStanrute>
-        <h2>Stanrute Case Study</h2>
+        <h2>Stanrute: Daring to build Coinbase for Africa</h2>
 
         <Images>
           <img

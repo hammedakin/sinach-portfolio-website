@@ -10,7 +10,7 @@ const RefarmB = () => {
       <Navbar />
       <StyledCaseStudy>
         <div className="my-5">
-          <h3 className="mb-5">Refarm for Businesses Case Study</h3>
+          <h3 className="mb-5">Refarm for Businesses</h3>
           <img
             src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmB0_ggnquc.jpg"
             alt="cover"

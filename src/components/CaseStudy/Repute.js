@@ -10,7 +10,10 @@ const Repute = () => {
       <Navbar />
       <StyledCaseStudy>
         <div className="my-5">
-          <h3 className="mb-5">Repute Case Study</h3>
+          <h3 className="mb-5">
+            Repute: Helping businesses manage their reputation in a seamless
+            way.
+          </h3>
           <img
             src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/repute0_agxjh4.jpg"
             alt="cover"

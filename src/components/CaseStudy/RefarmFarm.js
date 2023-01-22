@@ -11,7 +11,7 @@ const RefarmFarm = () => {
     <Container>
       <Navbar />
       <StyledRefarmFarm>
-        <h2>Refarm for Farmers Case Study</h2>
+        <h2>Refarm for Farmers</h2>
 
         <Images>
           <img
