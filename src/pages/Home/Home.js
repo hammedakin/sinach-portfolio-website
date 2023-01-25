@@ -10,28 +10,17 @@ import {
   DesignProcess,
   MyWorks,
 } from "./Home.styled";
-import Logos from "../../components/Logos/Companies";
-// import MyImage from "../../assets/myimage.png";
-import { StyledButton } from "../../components/GlobalStyles.styled";
+import Logos from "../../components/Logos/Companies";import { StyledButton } from "../../components/GlobalStyles.styled";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
-import { useEffect, useState } from "react";
 import PageLoader from "../../components/PageLoader";
 import RotatingText from "../../components/RotatingText/RotatingText";
 
 const Home = () => {
-  const [ploading, setploading] = useState(false);
 
-  useEffect(() => {
-    document.title = "Sinach Pat | Product Designer";
-    setploading(true);
-    setTimeout(() => {
-      setploading(false);
-    }, 7000);
-  }, []);
 
   return (
     <Container>
-      {ploading && <PageLoader loading={ploading} />}
+      {<PageLoader age={7000} />}
       <Navbar />
 
       <Banner>

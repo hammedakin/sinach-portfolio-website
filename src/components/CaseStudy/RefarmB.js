@@ -1,12 +1,15 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import PageLoader from "../PageLoader";
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
 const RefarmB = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledCaseStudy>
         <div className="my-5">
@@ -325,7 +328,7 @@ const RefarmB = () => {
             </p>
           </Section>
         </div>
-        <CSButtons prev={""} next={"2"} />
+        <CSButtons prev={"1"} next={"3"} />
       </StyledCaseStudy>
       <Footer />
     </Container>

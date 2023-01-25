@@ -1,12 +1,15 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import PageLoader from "../PageLoader";
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
 const Repute = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledCaseStudy>
         <div className="my-5">
@@ -308,7 +311,7 @@ const Repute = () => {
           </Section>
         </div>
 
-        <CSButtons prev={"1"} next={"3"} />
+        <CSButtons prev={"2"} next={"4"} />
       </StyledCaseStudy>
       <Footer />
     </Container>

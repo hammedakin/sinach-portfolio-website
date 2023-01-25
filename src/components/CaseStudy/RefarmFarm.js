@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import { Link } from "react-router-dom";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import PageLoader from "../PageLoader";
+import CSButtons from "./CSButtons";
 
 const RefarmFarm = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledRefarmFarm>
         <h2>Refarm for Farmers</h2>
@@ -338,19 +339,8 @@ const RefarmFarm = () => {
           you have any questions about it, you can send me a message.
         </p>
 
-        <div className="d-flex justify-content-between">
-          <Link to="/works/4">
-            <StyledButton>
-              <FaArrowLeft /> Back
-            </StyledButton>
-          </Link>
+        <CSButtons prev={"5"} next={"7"} />
 
-          <Link to="/works/6">
-            <StyledButton>
-              Next <FaArrowRight />
-            </StyledButton>
-          </Link>
-        </div>
       </StyledRefarmFarm>
       <Footer />
     </Container>

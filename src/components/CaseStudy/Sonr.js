@@ -1,12 +1,15 @@
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import PageLoader from "../PageLoader";
 import { Section, StyledCaseStudy } from "./CaseStudy.styled";
 import CSButtons from "./CSButtons";
 
 const Sonr = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledCaseStudy>
         <div className="my-5">
@@ -328,7 +331,7 @@ const Sonr = () => {
           </Section>
         </div>
 
-        <CSButtons prev={"2"} next={"4"} />
+        <CSButtons prev={"3"} next={"5"} />
       </StyledCaseStudy>
       <Footer />
     </Container>

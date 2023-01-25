@@ -5,6 +5,7 @@ import { Container } from "../Home/Home.styled";
 import AllShelf from "./AllShelf";
 import { StyledShelf } from "./Shelf.styled";
 import { useEffect } from "react";
+import PageLoader from "../../components/PageLoader";
 
 const Shelf = () => {
   useEffect(() => {
@@ -13,6 +14,8 @@ const Shelf = () => {
 
   return (
     <StyledShelf>
+      {<PageLoader age={5000} />}
+
       <Container>
         <Navbar />
 

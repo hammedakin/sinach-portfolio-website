@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import { Link } from "react-router-dom";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import PageLoader from "../PageLoader";
+import CSButtons from "./CSButtons";
 
 const Creatorh = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledCreatorh>
         <h2>
@@ -300,19 +301,8 @@ const Creatorh = () => {
           </li>
         </ul>
 
-        <div className="d-flex justify-content-between">
-          <Link to="/works/5">
-            <StyledButton>
-              <FaArrowLeft /> Back
-            </StyledButton>
-          </Link>
+        <CSButtons prev={"6"} next={""} />
 
-          <Link to="/works/7">
-            <StyledButton>
-              Next <FaArrowRight />
-            </StyledButton>
-          </Link>
-        </div>
       </StyledCreatorh>
       <Footer />
     </Container>

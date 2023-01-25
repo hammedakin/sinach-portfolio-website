@@ -7,6 +7,7 @@ import { Container } from "../Home/Home.styled";
 import { AboutHeader, StyledAbout } from "./About.styled";
 import ThoughtShared from "./ThoughtShared";
 import { useEffect } from "react";
+import PageLoader from "../../components/PageLoader";
 
 const About = () => {
   useEffect(() => {
@@ -14,6 +15,8 @@ const About = () => {
   }, []);
   return (
     <Container>
+      {<PageLoader age={5000} />}
+
       <StyledAbout>
         <Navbar />
         <AboutHeader>
