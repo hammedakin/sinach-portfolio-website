@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { Container } from "../../pages/Home/Home.styled";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import { Link } from "react-router-dom";
-import { StyledButton } from "../GlobalStyles.styled";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import PageLoader from "../PageLoader";
+import CSButtons from "./CSButtons";
 
 const Stanrute = () => {
   return (
     <Container>
+      {<PageLoader age={3000} />}
+
       <Navbar />
       <StyledStanrute>
         <h2>Stanrute: Daring to build Coinbase for Africa</h2>
@@ -539,19 +540,8 @@ const Stanrute = () => {
           allowed by the company.
         </p>
 
-        <div className="d-flex justify-content-between">
-          <Link to="/works/6">
-            <StyledButton>
-              <FaArrowLeft /> Back
-            </StyledButton>
-          </Link>
+        <CSButtons prev={""} next={"2"} />
 
-          <Link to="/works">
-            <StyledButton>
-              Next <FaArrowRight />
-            </StyledButton>
-          </Link>
-        </div>
       </StyledStanrute>
 
       <Footer />

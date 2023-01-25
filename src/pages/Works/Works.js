@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import AllWorks from "../../components/Works/AllWorks";
 import Project from "../../components/Projects/Project";
 import { useEffect } from "react";
+import PageLoader from "../../components/PageLoader";
 
 const Works = () => {
   useEffect(() => {
@@ -11,6 +12,8 @@ const Works = () => {
   }, []);
   return (
     <Container>
+      {<PageLoader age={5000} />}
+
       <Navbar />
       <Main>
         <h2 className="header">All Featured Works</h2>

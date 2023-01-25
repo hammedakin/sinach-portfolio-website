@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FadeLoader } from 'react-spinners';
 import styled from 'styled-components';
 
 const PageLoader = (props) => {
+  const [ploading, setploading] = useState(false);
+
+  useEffect(() => {
+    document.title = "Sinach Pat | Product Designer";
+    setploading(true);
+    setTimeout(() => {
+      setploading(false);
+    }, props.age);
+  }, []);
   return (
     <>
+    {ploading &&
       <StyledPageLoader>
-        <FadeLoader color={"#fafafa"} loading={props.loading} size={200} margin={15} />
+        <FadeLoader color={"#fafafa"} loading={ploading} size={200} margin={15} />
       </StyledPageLoader>
+    }
     </>
   );
 };
