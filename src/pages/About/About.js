@@ -70,12 +70,12 @@ const About = () => {
           </p>
         </div>
         <hr />
-        <ThoughtShared />
+        {/* <ThoughtShared />
         <a href="https://medium.com/@sinachpat" target='_blank'>
           <StyledButton>
             Show all <BsArrowRight />
           </StyledButton>
-        </a>
+        </a> */}
         <Footer />
       </StyledAbout>
     </Container>
