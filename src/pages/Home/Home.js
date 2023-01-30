@@ -33,8 +33,8 @@ const Home = () => {
             <span className="third">Product Designer</span>{" "}
           </h1>
           <p>
-            I was a food scientist turned world class product designer. I have
-            worked with teams to build products and services that fits the
+            I was a food scientist turned world class product designer. I have 
+            4 years experience working with teams to build products and services that fits the
             market with <b>Excellence as my trademark.</b>
           </p>
           <div>
