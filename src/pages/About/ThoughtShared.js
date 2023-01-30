@@ -1,88 +1,64 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ThoughtShared = () => {
   const [loading, setloading] = useState(false);
   const [data, setdata] = useState([]);
-  // const endpoint = 'https://medium.com/';
-  const endpoint = 'https://medium2.p.rapidapi.com/';
-  const user_id = '@sinachpat';
 
+  const username = `sinachpat`;
+  const RSSUrl = `https://medium.com/feed/@${ username }`;
+  const RSSConverter = `https://api.rss2json.com/v1/api.json?rss_url=${ RSSUrl }`;
 
-  axios.get(`${ endpoint }feed/${ user_id }`,
-  //  {
-  //   headers: {
-  //     'X-RapidAPI-Key': '55943390a9mshbed19256ae6092cp17efedjsn91739d2ff04e',
-  //     'X-RapidAPI-Host': 'medium2.p.rapidapi.com'
-  //   }
-  // }
-  )
-  // const endpoint = "https://medium2.p.rapidapi.com/";
-  // const user_id = "1985b61817c3";
-
-  axios
-    .get(`${endpoint}user/${user_id}/articles`, {
-      headers: {
-        "X-RapidAPI-Key": "55943390a9mshbed19256ae6092cp17efedjsn91739d2ff04e",
-        "X-RapidAPI-Host": "medium2.p.rapidapi.com",
-      },
-    })
-    .then((res) => {
-      if (res.data.success === false) {
-        setloading(false);
-      } else {
-        setloading(false);
-        setdata(res);
-      }
-    })
-    .catch((error) => {
+  const getMediumData = async () => {
+    setloading(true);
+    try {
+      const response = await fetch(RSSConverter);
+      const data = await response.json();
+      setdata(data.items);
       setloading(false);
-    });
+      return data;
+    } catch (error) {
+      setloading(false);
+      console.log(error);
+    }
+  };
 
-  console.log(data);
-
-  const thought = [
-    {
-      title: "My experience working on Sonr Learn",
-      content:
-        "Just scribbles from my days at Sonr Inc. as the product lead of the Sonr Learn Program. From the ideation period to design and implementation.",
-    },
-    {
-      title: "My experience working on Sonr Learn",
-      content:
-        "Just scribbles from my days at Sonr Inc. as the product lead of the Sonr Learn Program. From the ideation period to design and implementation.",
-    },
-    {
-      title: "My experience working on Sonr Learn",
-      content:
-        "Just scribbles from my days at Sonr Inc. as the product lead of the Sonr Learn Program. From the ideation period to design and implementation.",
-    },
-  ];
+  useEffect(() => {
+    getMediumData();
+  }, []);
 
   return (
     <StyledThoughtShared>
       <h4 className="mb-5">Some of thoughts shared in writing</h4>
-      <div className="row">
-        {thought.map(({ title, content }, i) => (
-          <div className="col-md-4 mb-3" key={i}>
-            <div className="card">
-              <div className="">
-                <img
-                  src="https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674122508/Sinachpat/sonr_yyf96u.png"
-                  alt="Sonr"
-                  width="100%"
-                />
-              </div>
-              <div className="px-2 my-3">
-                <h5>{title}</h5>
-                <p>{content}</p>
-                <i> {"->"} Written by Osinachi Patrick</i>
-              </div>
+      {loading ?
+        <div className="text-center">
+          <h5 className="my-5"> Loading ...</h5>
+        </div> :
+        <div className="row">
+          {data.slice(0, 3)?.map(({ title, content, thumbnail, guid }, i) => (
+            <div className="col-md-4 mb-3 " key={i}>
+              <a href={guid} target="_blank">
+                <div className="card h-100">
+                  <div className="">
+                    <img
+                      src={thumbnail}
+                      alt="Sonr"
+                      width="100%"
+                    />
+                  </div>
+                  <div className="px-2 my-3">
+                    <h5>{title}</h5>
+                    {/* <p>{content}</p> */}
+                    <i> {"->"} Written by Osinachi Patrick</i>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      }
     </StyledThoughtShared>
   );
 };
