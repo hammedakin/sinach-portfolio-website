@@ -300,9 +300,13 @@ const Creatorh = () => {
             flexibility in the design of this product and future iterations.
           </li>
         </ul>
-
+        <h3>Thanks for reading</h3>
+        <p>
+          Thank you for taking out some time to read through this case study, if
+          you have any questions about it, you can send me a{" "}
+          <a href="mailto:sinachpat@gmail.com"> message</a>..
+        </p>
         <CSButtons prev={"6"} next={""} />
-
       </StyledCreatorh>
       <Footer />
     </Container>

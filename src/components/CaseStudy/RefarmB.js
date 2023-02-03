@@ -324,7 +324,7 @@ const RefarmB = () => {
             <p>
               Thank you for taking out your time to read through this case
               study. Do let me know if you have any feedback or contact me{" "}
-              <a href="https://www.linkedin.com/in/wisdomezeogu"> here</a>.
+              <a href="mailto:sinachpat@gmail.com"> here</a>.
             </p>
           </Section>
         </div>
