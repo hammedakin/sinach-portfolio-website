@@ -1,6 +1,4 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const ThoughtShared = () => {
@@ -39,7 +37,7 @@ const ThoughtShared = () => {
         <div className="row">
           {data.slice(0, 3)?.map(({ title, content, thumbnail, guid }, i) => (
             <div className="col-md-4 mb-3 " key={i}>
-              <a href={guid} target="_blank">
+              <a href={guid} target="_blank" rel="noreferrer">
                 <div className="card h-100">
                   <div className="">
                     <img
