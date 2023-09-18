@@ -1,9 +1,9 @@
 import { Container, MobileDesign } from "./Desgn.styled";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { FaAngleRight } from "react-icons/fa";
 
 const Design = () => {
-  const [check, setCheck] = useState();
+  // const [check, setCheck] = useState();
 
   const refList = useRef();
   const refList2 = useRef();

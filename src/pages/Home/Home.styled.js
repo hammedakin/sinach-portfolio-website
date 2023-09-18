@@ -43,6 +43,49 @@ export const Container = styled.div`
     padding: 28px 17px;
   }
 `;
+export const RefarmContainer = styled.div`
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 57px 68px;
+  h2 {
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 58px;
+    background: linear-gradient(180deg, #ffffff 0%, #408cff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+    }
+    @media (max-width: 768px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @media (max-width: 480px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  p {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    @media (max-width: 480px) {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding: 28px 17px;
+  }
+`;
 
 export const Organizations = styled.div`
   display: flex;

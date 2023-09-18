@@ -28,13 +28,21 @@ export const works = [
       "The company building the cryptoeconomy for Africa, Stanrute, began in 2021 with the goal of making it easy for anyone to send and receive Bitcoin and stablecoins. Over time, the company has expanded to offer a platform for accessing a range of cryptocurrency-based financial services. This platform is designed to be user-friendly and reliable, making it easier for people to participate in the cryptoeconomy.",
     link: "/works/7",
   },
+  // {
+  //   img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmB0_ggnquc.jpg",
+  //   title: "Refarm for Businesses",
+  //   class: "design",
+  //   content:
+  //     " To become Africa's foremost fresh food produce supply chain by building an ecosystem of products that connects farmers, field agents, businesses, and consumers in a seamless flow of farm produce from farm to fork.",
+  //   link: "/works/1",
+  // },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmB0_ggnquc.jpg",
-    title: "Refarm for Businesses",
+    title: "Refarm",
     class: "design",
     content:
       " To become Africa's foremost fresh food produce supply chain by building an ecosystem of products that connects farmers, field agents, businesses, and consumers in a seamless flow of farm produce from farm to fork.",
-    link: "/works/1",
+    link: "/works/refarm",
   },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/repute0_agxjh4.jpg",
@@ -53,6 +61,42 @@ export const works = [
       "Sonr is a company that operates a blockchain-based platform. A blockchain is a decentralised, distributed digital ledger that records transactions on multiple computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the consensus of the network. This makes it a secure and transparent way to record and verify transactions.",
     link: "/works/3",
   },
+  // {
+  //   img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmF0_slfj20.jpg",
+  //   title: "Refarm for Field Agents",
+  //   class: "design",
+  //   content:
+  //     "The Refarm app for Field Agents is an application designed to facilitate communication and interaction between field agents and farmers. Field agents are individuals who work on behalf of Refarm and are responsible for a variety of tasks related to the collection and distribution of farm produce.",
+  //   link: "/works/4",
+  // },
+  // {
+  //   img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/RefarmFarm0_sdvgcb.jpg",
+  //   title: "Refarm for Farmers Case Study",
+  //   class: "design",
+  //   content:
+  //     "There are several challenges that farmers in Africa face in the food and agricultural supply chain. One of the main challenges is a lack of access to markets and buyers for their products. Many farmers in Africa struggle to find reliable and consistent buyers for their crops, which can make it difficult for them to make a living and support their families.",
+  //   link: "/works/5",
+  // },
+  {
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/creatorh0_oaviib.png",
+    title:
+      "Creatorh: A community for African Entrepreneurs, Professionals and Creatives",
+    class: "design",
+    content:
+      "African entrepreneurs face many challenges in their efforts to create solutions that benefit society. One of the biggest challenges they face is lack of access to capital. Many African entrepreneurs have great ideas, but they lack the financial resources to turn their ideas into reality. This can be due to a lack of investment opportunities in their local communities, or it can be due to a lack of access to credit or loans from banks or other financial institutions.",
+    link: "/works/6",
+  },
+];
+
+export const refarmWork = [
+  {
+    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmB0_ggnquc.jpg",
+    title: "Refarm for Businesses",
+    class: "design",
+    content:
+      " To become Africa's foremost fresh food produce supply chain by building an ecosystem of products that connects farmers, field agents, businesses, and consumers in a seamless flow of farm produce from farm to fork.",
+    link: "/works/1",
+  },
   {
     img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674136177/Sinachpat/RefarmF0_slfj20.jpg",
     title: "Refarm for Field Agents",
@@ -68,15 +112,6 @@ export const works = [
     content:
       "There are several challenges that farmers in Africa face in the food and agricultural supply chain. One of the main challenges is a lack of access to markets and buyers for their products. Many farmers in Africa struggle to find reliable and consistent buyers for their crops, which can make it difficult for them to make a living and support their families.",
     link: "/works/5",
-  },
-  {
-    img: "https://res.cloudinary.com/dwxv6xoni/image/upload/q_auto:best/f_auto/v1674156479/Sinachpat/creatorh0_oaviib.png",
-    title:
-      "Creatorh: A community for African Entrepreneurs, Professionals and Creatives",
-    class: "design",
-    content:
-      "African entrepreneurs face many challenges in their efforts to create solutions that benefit society. One of the biggest challenges they face is lack of access to capital. Many African entrepreneurs have great ideas, but they lack the financial resources to turn their ideas into reality. This can be due to a lack of investment opportunities in their local communities, or it can be due to a lack of access to credit or loans from banks or other financial institutions.",
-    link: "/works/6",
   },
 ];
 

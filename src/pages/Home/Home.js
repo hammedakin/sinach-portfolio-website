@@ -10,14 +10,13 @@ import {
   DesignProcess,
   MyWorks,
 } from "./Home.styled";
-import Logos from "../../components/Logos/Companies";import { StyledButton } from "../../components/GlobalStyles.styled";
+import Logos from "../../components/Logos/Companies";
+import { StyledButton } from "../../components/GlobalStyles.styled";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 import PageLoader from "../../components/PageLoader";
 import RotatingText from "../../components/RotatingText/RotatingText";
 
 const Home = () => {
-
-
   return (
     <Container>
       {<PageLoader age={7000} />}
@@ -77,6 +76,10 @@ const Home = () => {
 
         <MyWorks>
           <h2>Selected Projects</h2>
+          <p>
+            Read through some of my works and get a picture of how I approach
+            projects
+          </p>
           <Works />
         </MyWorks>
       </SubContainer>

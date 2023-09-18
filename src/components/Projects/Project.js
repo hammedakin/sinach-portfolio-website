@@ -1,6 +1,6 @@
 import { projects } from "../../data/data";
 import { Container } from "./Project.styled";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Project = () => {
   return (

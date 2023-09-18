@@ -6,8 +6,8 @@ const ThoughtShared = () => {
   const [data, setdata] = useState([]);
 
   const username = `sinachpat`;
-  const RSSUrl = `https://medium.com/feed/@${ username }`;
-  const RSSConverter = `https://api.rss2json.com/v1/api.json?rss_url=${ RSSUrl }`;
+  const RSSUrl = `https://medium.com/feed/@${username}`;
+  const RSSConverter = `https://api.rss2json.com/v1/api.json?rss_url=${RSSUrl}`;
 
   const getMediumData = async () => {
     setloading(true);
@@ -30,21 +30,18 @@ const ThoughtShared = () => {
   return (
     <StyledThoughtShared>
       <h4 className="mb-5">Some of thoughts shared in writing</h4>
-      {loading ?
+      {loading ? (
         <div className="text-center">
           <h5 className="my-5"> Loading ...</h5>
-        </div> :
+        </div>
+      ) : (
         <div className="row">
           {data.slice(0, 3)?.map(({ title, content, thumbnail, guid }, i) => (
             <div className="col-md-4 mb-3 " key={i}>
               <a href={guid} target="_blank" rel="noreferrer">
                 <div className="card h-100">
                   <div className="">
-                    <img
-                      src={thumbnail}
-                      alt="Sonr"
-                      width="100%"
-                    />
+                    <img src={thumbnail} alt="Sonr" width="100%" />
                   </div>
                   <div className="px-2 my-3">
                     <h5>{title}</h5>
@@ -56,7 +53,7 @@ const ThoughtShared = () => {
             </div>
           ))}
         </div>
-      }
+      )}
     </StyledThoughtShared>
   );
 };
