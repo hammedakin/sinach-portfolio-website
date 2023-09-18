@@ -13,6 +13,7 @@ import Creatorh from "./components/CaseStudy/Creatorh";
 import Stanrute from "./components/CaseStudy/Stanrute";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollButton from "./components/ScrollBtn";
+import RefarmWorks from "./components/Works/RefarmWork";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/works/5" element={<RefarmFarm />} />
         <Route exact path="/works/6" element={<Creatorh />} />
         <Route exact path="/works/7" element={<Stanrute />} />
+        <Route exact path="/works/refarm" element={<RefarmWorks />} />
 
         {/* Case Study */}
       </Routes>

@@ -1,16 +1,16 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { works } from "../../data/data";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
-import { Container, Tab } from "./Works.styled";
+import { Container } from "./Works.styled";
 import { StyledButton } from "../GlobalStyles.styled";
 
 const Works = () => {
-  const [name, setName] = useState("design");
-  // const active = "active";
+  // const [name, setName] = useState("design");
+
   return (
     <>
-      <Tab>
+      {/* <Tab>
         <button
           className="active"
           onClick={(e) => {
@@ -41,28 +41,32 @@ const Works = () => {
         >
           Product Management
         </button>
-      </Tab>
-      {name
-        ? works
-            .filter((work) => work.class === name)
-            .map(({ img, title, content, link }, i) => (
-              <Container key={i}>
-                <div className="content">
-                  <h3>{title}</h3>
-                  <p> {content} </p>
+      </Tab> */}
+      {works
+        // .filter((work) => work.class === name)
+        .map(({ img, title, content, link }, i) => (
+          <Container key={i}>
+            <div className="content">
+              <h3>{title}</h3>
+              <p> {content} </p>
 
-                  <Link to={link}>
-                    <StyledButton>
-                      Read Case Study <BsArrowRight />
-                    </StyledButton>
-                  </Link>
-                </div>
-                <div className="image">
-                  <img src={img} alt="card_image" />
-                </div>
-              </Container>
-            ))
-        : "No content"}
+              <Link to={link}>
+                {title === "Refarm" ? (
+                  <StyledButton>
+                    View Case Studies <BsArrowRight />
+                  </StyledButton>
+                ) : (
+                  <StyledButton>
+                    Read Case Study <BsArrowRight />
+                  </StyledButton>
+                )}
+              </Link>
+            </div>
+            <div className="image">
+              <img src={img} alt="card_image" />
+            </div>
+          </Container>
+        ))}
     </>
   );
 };

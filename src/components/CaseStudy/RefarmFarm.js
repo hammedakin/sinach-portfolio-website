@@ -340,7 +340,7 @@ const RefarmFarm = () => {
           <a href="mailto:sinachpat@gmail.com"> message</a>..
         </p>
 
-        <CSButtons prev={"5"} next={"7"} />
+        <CSButtons prev={"4"} next={"1"} />
       </StyledRefarmFarm>
       <Footer />
     </Container>

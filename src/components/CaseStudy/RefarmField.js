@@ -333,7 +333,7 @@ const RefarmField = () => {
           </Section>
         </div>
 
-        <CSButtons prev={"4"} next={"6"} />
+        <CSButtons prev={"1"} next={"5"} />
       </StyledCaseStudy>
       <Footer />
     </Container>

@@ -328,7 +328,7 @@ const RefarmB = () => {
             </p>
           </Section>
         </div>
-        <CSButtons prev={"1"} next={"3"} />
+        <CSButtons prev={"5"} next={"4"} />
       </StyledCaseStudy>
       <Footer />
     </Container>
