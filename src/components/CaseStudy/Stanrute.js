@@ -532,7 +532,8 @@ const Stanrute = () => {
         <h3>Thanks for Reading</h3>
         <p>
           Thank you for taking out some time to read through this case study, if
-          you have any questions about it, you can send me a message.
+          you have any questions about it, you can send me a{" "}
+          <a href="mailto:sinachpat@gmail.com"> message</a>.
         </p>
         <p>
           P.S: I intentionally skipped some processes this case study because of
@@ -541,7 +542,6 @@ const Stanrute = () => {
         </p>
 
         <CSButtons prev={""} next={"2"} />
-
       </StyledStanrute>
 
       <Footer />

@@ -1,5 +1,4 @@
 import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import { StyledButton } from "../../components/GlobalStyles.styled";
 import Navbar from "../../components/Navbar/Navbar";
@@ -71,7 +70,11 @@ const About = () => {
         </div>
         <hr />
         <ThoughtShared />
-        <a href="https://medium.com/@sinachpat" target='_blank'>
+        <a
+          href="https://medium.com/@sinachpat"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyledButton>
             Show all <BsArrowRight />
           </StyledButton>

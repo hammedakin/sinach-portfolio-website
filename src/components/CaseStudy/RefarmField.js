@@ -328,12 +328,12 @@ const RefarmField = () => {
             <p>
               Thank you for taking out your time to read through this case
               study, if you have any questions about it, you can send me a{" "}
-              <a href="https://twitter.com/sinachpatrick"> message</a>.
+              <a href="mailto:sinachpat@gmail.com"> message</a>.
             </p>
           </Section>
         </div>
 
-        <CSButtons prev={"4"} next={"6"} />
+        <CSButtons prev={"1"} next={"5"} />
       </StyledCaseStudy>
       <Footer />
     </Container>

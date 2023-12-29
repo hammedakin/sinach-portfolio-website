@@ -7,21 +7,17 @@ const PersonalKnowledge = () => {
       <div className="row">
         {knowledge.map(({ title, type, to }, i) => (
           <div className="col-md-6 mb-3" key={i}>
-            <a href={to} target='_blank'>
+            <a href={to} target="_blank" rel="noreferrer">
               <div className="card-bg">
                 <div className="row align-items-center">
                   <div className="col-3">
                     <h6 className="m-0">{type}</h6>
                   </div>
                   <div className="col ">
-                    <p className='m-0'>
-                      {title}
-                    </p>
+                    <p className="m-0">{title}</p>
                   </div>
                   <div className="col-2 ">
-                    <h4 className='m-0'>
-                      {" >>>"}
-                    </h4>
+                    <h4 className="m-0">{" >>>"}</h4>
                   </div>
                 </div>
               </div>

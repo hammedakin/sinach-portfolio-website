@@ -11,7 +11,7 @@ const PageLoader = (props) => {
     setTimeout(() => {
       setploading(false);
     }, props.age);
-  }, []);
+  }, [props.age]);
   return (
     <>
     {ploading &&

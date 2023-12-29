@@ -10,14 +10,13 @@ import {
   DesignProcess,
   MyWorks,
 } from "./Home.styled";
-import Logos from "../../components/Logos/Companies";import { StyledButton } from "../../components/GlobalStyles.styled";
+import Logos from "../../components/Logos/Companies";
+import { StyledButton } from "../../components/GlobalStyles.styled";
 import { BsArrowRight, BsArrowDown } from "react-icons/bs";
 import PageLoader from "../../components/PageLoader";
 import RotatingText from "../../components/RotatingText/RotatingText";
 
 const Home = () => {
-
-
   return (
     <Container>
       {<PageLoader age={7000} />}
@@ -25,17 +24,19 @@ const Home = () => {
 
       <Banner>
         <div className="bannerContent">
-          <p className="intro">Hi 👋, I’m Osinachi Patrick. I am a</p>
+          <p className="intro">
+            Hi 👋, I’m Osinachi Patrick. A Product Designer.
+          </p>
           <h1>
             {" "}
-            <span className="first">Food Scientist </span>
-            <span className="second">turned </span>
-            <span className="third">Product Designer</span>{" "}
+            <span className="first"> Turning dreams </span>
+            <span className="second">into </span>
+            <span className="third">Excellent Products</span>{" "}
           </h1>
           <p>
-            I was a food scientist turned world class product designer. I have 
-            4 years experience working with teams to build products and services that fits the
-            market with <b>Excellence as my trademark.</b>
+            I was a food scientist turned world class product designer. I have 4
+            years experience working with teams to build products and services
+            that fits the market with <b>Excellence as my trademark.</b>
           </p>
           <div>
             <a href="mailto:sinachpat@gmail.com">
@@ -75,6 +76,10 @@ const Home = () => {
 
         <MyWorks>
           <h2>Selected Projects</h2>
+          <p>
+            Read through some of my works and get a picture of how I approach
+            projects
+          </p>
           <Works />
         </MyWorks>
       </SubContainer>
